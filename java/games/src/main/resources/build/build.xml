@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="../" default="build" name="poker">
+
+	<property file="build/build.properties"/>
+	
+	<path id="poker.classpath">
+    	<pathelement location="WEB-INF/classes"/>
+		<pathelement location="C:/Documents and Settings/joe/My Documents/workspace/util/classes"/>
+	</path>	
+	
+	<target name="init">
+		<mkdir dir="WEB-INF/classes"/>
+	</target>
+	
+	<target name="build" depends="init" >
+		<javac srcdir="src" destdir="WEB-INF/classes" />
+	</target>
+	
+	<target name="clean">
+		<delete dir="classes"/>
+	</target>
+
+	<target name="clean-jar">
+		<delete file="Blackjack.jar"/>
+	</target>
+
+	<target name="clean-applet">
+		<delete file="BJlet.jar" />
+	</target>
+	
+	<target name="run" depends="jar">
+		 <java classpathref="poker.classpath" 
+		 	jar="Blackjack.jar" 
+		 	fork="true"/>
+	</target>
+	
+	<target name="jar" depends="build" >
+		<jar jarfile="Blackjack.jar">
+			<fileset dir="."
+					 includes="images/**"/>
+			<fileset dir="WEB-INF/classes/" 
+					 includes="joejava/games/blackjack/**"/>
+			<fileset dir="WEB-INF/classes/" 
+								 includes="joejava/games/poker/**"/>
+			<fileset dir="C:/Documents and Settings/joe/My Documents/workspace/util/classes"/>
+			<manifest>
+				<attribute name="Main-Class" value="joejava.games.blackjack.swing.BlackjackFrame" />
+			</manifest>
+		</jar>
+	</target>
+		
+	<target name="applet" depends="build" >
+		<jar jarfile="${jolty.home}/BJlet.jar" basedir="classes">
+			<fileset dir="."
+					 includes="images/**"/>
+			<fileset dir="../util/classes"/>
+			<manifest>
+				<attribute name="Main-Class" value="joejava.poker.BJlet" />
+			</manifest>
+		</jar>
+	</target>
+	
+	<target name="test">
+		<echo message="${jolty.home}" />
+	</target>
+
+	<target name="package" depends="build">
+		<jar jarfile="poker.jar" basedir="classes"/>
+		<move file="poker.jar" todir="C:/tomcat/webapps/puzzles/WEB-INF/lib"/>
+	</target>
+	
+</project>

@@ -1,0 +1,31 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index
+
+# Twitter (OAuth 1.x)
+GET     /twitter                    controllers.Twitter.index
+GET     /twitter/auth               controllers.Twitter.authenticate
+
+# OAuth 1.x
+GET     /oauth                      controllers.OAuthController.index
+GET     /oauth/:id/home             controllers.OAuthController.home(id: String)
+GET     /oauth/:id/auth             controllers.OAuthController.auth(id: String)
+GET     /oauth/:id/call             controllers.OAuthController.call(id: String, url: String)
+
+# LinkedIn (OAuth 2.x)
+GET     /linkedin                   controllers.LinkedIn.index
+GET     /linkedin/auth              controllers.LinkedIn.authenticate
+
+# OAuth 2.x
+GET     /oauth2                      controllers.OAuth2Controller.index
+GET     /oauth2/call                 controllers.OAuth2Controller.call(id: String, url: String)
+GET     /oauth2/auth                 controllers.OAuth2Controller.auth(id: String)
+
+# Google Login
+POST    /google/login               controllers.Google.login
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)

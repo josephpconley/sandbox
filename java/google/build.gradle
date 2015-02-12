@@ -1,0 +1,72 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+def version = '0.0.1'
+def targetDir = 'target'
+
+//project properties
+buildDir = targetDir + '/classes'
+sourceSets.main.classesDir = buildDir
+
+//need to get gradle eclipse to stop adding jdk 1.5 on the build path
+//eclipseClasspath.containers = ['jdk1.6.0_25']
+
+//jar up models only!!! 
+task j(type: Jar){
+	from(sourceSets.main.classesDir)
+	destinationDir = new File(projectDir.getAbsolutePath() + '/' + targetDir)
+	appendix = version
+}
+
+task c(type: Copy){
+	from(targetDir){
+		include '*.jar'
+	}
+	into('C:/workspace/feed/lib')
+}
+
+//trusting eclipse to compile, if you need compile call gradle compileJava
+/*
+task jPush(type: Copy){
+	//from(confDir)
+	from(classDir)
+	into(tomcatDir + '/WEB-INF/classes')	
+}
+
+task conf(type: Copy){
+	from(confDir)
+	into(tomcatDir)
+}
+
+task webapp(type: Copy){
+	from(webappDir)
+	into(tomcatDir)
+}
+
+task deps(type: Sync){
+	from('lib')
+	into(webappDir + '/WEB-INF/lib')
+}
+
+task z(dependsOn: compileJava){
+	
+}
+
+*/
+
+/*
+dependencies {
+	compile fileTree(dir: 'lib', include: '*.jar', exclude: 'commonx.jar')
+	
+	//still issues
+	compile 'com.planalytics.common:commonx:0.1.17'
+}
+
+repositories{
+	mavenCentral()
+	
+	//local maven
+	//mavenRepo urls: new File('/Users/jconley/.m2/repository').toURL().toString()
+}
+*/

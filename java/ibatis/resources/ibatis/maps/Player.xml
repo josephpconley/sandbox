@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="nfl">
+
+	<resultMap class="Player" id="playerResultMap">
+		<result property="playerId" column="player_id" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="firstName" column="first_name" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="lastName" column="last_name" javaType="string"
+			jdbcType="VARCHAR"/>									
+	</resultMap>
+	
+	<select id="getPlayerById" parameterClass="string" resultClass="Player" resultMap="playerResultMap">
+		SELECT *
+		FROM nfl.players
+		WHERE player_id = #playerId#
+	</select>
+	
+	<select id="getPlayerByName" parameterClass="hashmap"
+					resultClass="Player" resultMap="playerResultMap">
+		SELECT *
+		FROM nfl.players
+		WHERE UPPER(first_name) LIKE UPPER(#firstName#)
+			AND	UPPER(last_name) LIKE UPPER(#lastName#)
+	</select>
+	
+	<insert id="insertPlayer" parameterClass="Player">
+		INSERT INTO nfl.players VALUES (#playerId#, #firstName#, #lastName#)
+	</insert>
+	
+</sqlMap>

@@ -1,0 +1,48 @@
+html, body, table, tr, th, td, div, form, a, p,img, embed, span, h4, h2, textarea {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Calisto MT;
+	background-color: #404040;
+	font-size: 12pt;
+	color: #404040;
+	background-image: url('../images/hobbitlarge.jpg');
+}
+
+a{
+	cursor: pointer;
+	text-decoration:none;	
+}
+
+li{
+	list-style-type: none;
+}
+
+.style57 {font-family: "Calisto MT"; color: #CCCCCC; font-weight: bold; font-size: 16px; }
+.style58 {font-family: "Calisto MT"; font-size: 16px; }
+.red {color: #FF0000}
+.green {color: #33FF33}
+.gold {color: #999900}
+.style46 {color: #000000}
+.orange {color: #FF6600}
+.light-blue {color: #00FFFF}
+.blue {color: #0066FF}
+.auburn {color: #800000}
+.silver {color: #CCCCCC;}
+.yellow {color: #FFCC00}
+.navy-blue {color: #333399}
+.style44 {color: #0000FF}
+.white {color: #CCFFFF}
+.tan {color: #CC9933}
+.pink {color: #CC0066}
+.sky-blue {color: #6699CC;}
+.style31 {color: #6699CC}
+.style32 {color: #FFFFFF}
+.style33 {color: #FFCC99}
+.style34 {color: #CC6633}
+.style59 {color: #CC3300;}
+.style62 {color: #FF0000; font-weight: bold; }
+.style39 {color: #CC3300; font-weight: bold; font-family: Georgia, "Times New Roman", Times, serif; }
+.style40 {color: #CCCCCC}

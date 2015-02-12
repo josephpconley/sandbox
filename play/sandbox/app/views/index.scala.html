@@ -1,0 +1,8 @@
+@(message: Option[Foo])
+
+@main("TEST") {
+
+    <p>@message.map(f => f.a).getOrElse("default")</p>
+}
+
+<script src="@routes.Assets.at("javascripts/main.js")"></script>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMapConfig PUBLIC "-//iBatis.com//DTD SQL Map Config 2.0//EN"
+"http://www.ibatis.com/dtd/sql-map-config-2.dtd">
+
+<!-- Always ensure to use the correct XML header as above! -->
+<sqlMapConfig>
+
+		<!-- General Settings (if necessary) -->
+	<settings cacheModelsEnabled="true" enhancementEnabled="true"
+		lazyLoadingEnabled="true" useStatementNamespaces="false"></settings>
+
+		<!-- Golf -->
+	<typeAlias alias="Golfer" type="joejava.ibatis.bean.Golfer" />
+	<typeAlias alias="Round" type="joejava.ibatis.bean.Round" />
+	<typeAlias alias="Course" type="joejava.ibatis.bean.Course" />
+
+		<!-- NFL -->
+	<typeAlias alias="Game" type="joejava.ibatis.bean.Game" />
+	<typeAlias alias="Player" type="joejava.ibatis.bean.Player" />
+	<typeAlias alias="Team" type="joejava.ibatis.bean.Team" />
+	<typeAlias alias="TeamStats" type="joejava.ibatis.bean.TeamStats" />
+	<typeAlias alias="Offense" type="joejava.ibatis.bean.Offense" />
+	<typeAlias alias="Defense" type="joejava.ibatis.bean.Defense" />
+
+		<!-- Pensieve -->
+	<typeAlias alias="Contact" type="joejava.ibatis.bean.Contact" />
+	<typeAlias alias="Note" type="joejava.ibatis.bean.Note" />
+	<typeAlias alias="EmailContact" type="joejava.ibatis.bean.EmailContact" />
+	<typeAlias alias="EmailProperties" type="joejava.ibatis.bean.EmailProperties" />
+	<typeAlias alias="Day" type="joejava.ibatis.bean.Day" />
+	<typeAlias alias="User" type="joejava.ibatis.bean.User" />
+	
+		<!-- Poker -->
+	<typeAlias alias="Showdown" type="joejava.ibatis.bean.Showdown" />
+	<typeAlias alias="Hand" type="joejava.ibatis.bean.Hand" />
+	
+		<!-- Define the transaction manager -->
+	<transactionManager type="JDBC">
+		<dataSource type="JNDI">
+			<property name="DataSource" value="java:comp/env/jdbc/postgres" />
+			<property name="Pool.PingEnabled" value="true" />
+			<property name="Pool.PingQuery"	value="SELECT 1 FROM DUAL" />
+			<property name="Pool.PingEnabled" value="true" />
+			<property name="Pool.PingConnectionsOlderThan" value="3600000" />
+			<property name="Pool.PingConnectionsNotUsedFor" value="3600000" />
+			<property name="Pool.MaximumActiveConnections" value="10" />
+			<property name="Pool.MaximumIdleConnections" value="5" />
+			<property name="Pool.MaximumCheckoutTime" value="120000" />
+		</dataSource>
+	</transactionManager>
+
+		<!-- Games -->
+	<sqlMap resource="ibatis/maps/English.xml"/>
+
+		<!-- Golf -->
+	<sqlMap resource="ibatis/maps/Golfer.xml" />
+	<sqlMap resource="ibatis/maps/Round.xml"/>
+	<sqlMap resource="ibatis/maps/Course.xml"/>
+	
+		<!-- NFL -->
+	<sqlMap resource="ibatis/maps/Game.xml"/>
+	<sqlMap resource="ibatis/maps/Player.xml"/>
+	<sqlMap resource="ibatis/maps/Team.xml" />
+	<sqlMap resource="ibatis/maps/TeamStats.xml" />
+	<sqlMap resource="ibatis/maps/Offense.xml"/>
+	<sqlMap resource="ibatis/maps/Defense.xml"/>	
+	
+		<!-- Pensieve -->
+	<sqlMap resource="ibatis/maps/Category.xml" />
+	<sqlMap resource="ibatis/maps/Contact.xml" />
+	<sqlMap resource="ibatis/maps/Email.xml" />
+	<sqlMap resource="ibatis/maps/Note.xml" />
+	<sqlMap resource="ibatis/maps/User.xml" />
+	
+		<!-- Poker -->
+	<sqlMap resource="ibatis/maps/Poker.xml" />			
+</sqlMapConfig>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="email">
+<!-- 
+	<resultMap class="email" id="emailResultMap">
+		<result property="ID" column="id" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="address" column="address" javaType="string"
+			jdbcType="VARCHAR"/>
+	</resultMap>
+ -->
+ 
+ 	<select id="getEmailProperties" parameterClass="string" resultClass="EmailProperties">
+ 		SELECT * FROM pensieve.email
+ 		WHERE provider = #provider#		
+ 	</select>
+ 
+	<select id="getEmailAddresses" parameterClass="string" resultClass="EmailContact">
+		SELECT * FROM	
+			(SELECT id, email1 AS address FROM pensieve.contacts 
+			WHERE email1 IS NOT NULL 
+					AND (upper(firstname) LIKE upper(#value# || '%') OR 
+						upper(lastname) LIKE upper(#value# || '%') OR
+						upper(email1) LIKE upper(#value# || '%'))
+			UNION
+			SELECT id, email2 AS address FROM pensieve.contacts 
+			WHERE email2 IS NOT NULL 
+				AND (upper(firstname) LIKE upper(#value# || '%') OR 
+						upper(lastname) LIKE upper(#value# || '%') OR
+						upper(email2) LIKE upper(#value# || '%'))
+			UNION
+			SELECT id, email3 AS address FROM pensieve.contacts 
+			WHERE email3 IS NOT NULL 
+				AND (upper(firstname) LIKE upper(#value# || '%') OR 
+						upper(lastname) LIKE upper(#value# || '%') OR
+						upper(email3) LIKE upper(#value# || '%'))
+			UNION
+			SELECT id, email4 AS address FROM pensieve.contacts 
+			WHERE email4 IS NOT NULL 
+				AND (upper(firstname) LIKE upper(#value# || '%') OR 
+						upper(lastname) LIKE upper(#value# || '%') OR
+						upper(email4) LIKE upper(#value# || '%'))
+			UNION
+			 SELECT id, stripbad(phone1,cell_service) AS address FROM pensieve.contacts 
+			WHERE phone1 IS NOT NULL AND cell_service IS NOT NULL 
+				AND (upper(firstname) LIKE upper(#value# || '%') OR 
+						upper(lastname) LIKE upper(#value# || '%') OR
+						upper(stripbad(phone1,cell_service)) LIKE upper(#value# || '%'))
+			) AS X
+		ORDER BY id
+	</select>
+	
+	<select id="getReminders" resultClass="string">
+		SELECT write_bday(id) as content
+		FROM pensieve.contacts
+		WHERE date_part('month',bday) = date_part('month', current_date)
+			AND date_part('day',bday) = date_part('day', current_date)
+	</select>
+</sqlMap>

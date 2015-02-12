@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="user">
+
+	<resultMap class="User" id="userResultMap">
+		<result property="username" column="username" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="password" column="password" javaType="string"
+			jdbcType="VARCHAR"/>
+	</resultMap>
+	
+	<select id="getValidUser" parameterClass="hashmap"
+		resultClass="User" resultMap="userResultMap">
+		SELECT * FROM users
+		WHERE username=#username#
+		AND password=#password#
+	</select>
+	
+</sqlMap>

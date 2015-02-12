@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="note">
+
+	<resultMap class="Note" id="noteResultMap">
+		<result property="id" column="id" javaType="int"
+				jdbcType="SERIAL"/>
+		<result property="content" column="content" javaType="string"
+				jdbcType="VARCHAR"/>
+		<result property="category" column="category" javaType="string"
+				jdbcType="VARCHAR"/>
+		<result property="startDate" column="start_date" javaType="java.util.Date"
+				jdbcType="DATE"/>
+		<result property="endDate" column="end_date" javaType="java.util.Date"
+				jdbcType="DATE"/>
+		<result property="startTime" column="start_time" javaType="java.sql.Time"
+				jdbcType="TIME"/>
+		<result property="endTime" column="end_time" javaType="java.sql.Time"
+				jdbcType="TIME"/>
+		<result property="frequency" column="frequency" javaType="string"
+				jdbcType="VARCHAR"/>	
+		<result property="reminder" column="reminder" javaType="boolean"
+				jdbcType="BOOLEAN"/>							
+	</resultMap>
+	
+	<resultMap class="Note" id="birthdayResultMap">
+		<result property="content" column="content" javaType="string"
+				jdbcType="VARCHAR"/>
+		<result property="startDate" column="bday" javaType="java.util.Date"
+				jdbcType="DATE"/>
+	</resultMap>	
+
+	<select id="getAllNotes" resultClass="Note" resultMap="noteResultMap">
+		SELECT *
+		FROM pensieve.notes
+		ORDER BY start_date 
+	</select>
+
+	<select id="getNotesByDay" parameterClass="java.util.Date" resultClass="Note" resultMap="noteResultMap">
+		SELECT *
+		FROM pensieve.notes N LEFT OUTER JOIN pensieve.holidays H
+			ON N.content = H.holiday_desc
+		WHERE start_date = #today# 
+			OR (frequency = get_dow(date_part('dow',CAST(#today# as DATE)))
+				<![CDATA[
+				AND (start_date < #today# or start_date = #today# or start_date is null) 
+				AND (end_date > #today# or end_date = #today# or end_date is null)
+				 ]]>
+			)
+			OR (frequency = 'Annual'
+				AND date_part('month',start_date) = date_part('month',CAST(#today# as DATE))
+				AND date_part('day',start_date) = date_part('day',CAST(#today# as DATE))
+			)
+			OR (frequency = 'Holiday'
+				AND month = date_part('month',CAST(#today# as DATE))
+				AND dow = date_part('dow',CAST(#today# as DATE))
+				<![CDATA[
+				AND date_part('day',CAST(#today# as DATE)) > start_day
+				AND date_part('day',CAST(#today# as DATE)) < end_day
+				]]>
+				)
+		ORDER BY start_date
+	</select>
+	
+	<select id="getNoteById" parameterClass="int" resultClass="Note" resultMap="noteResultMap">
+		SELECT *
+		FROM pensieve.notes
+		WHERE id = #id#
+	</select>
+	
+	<select id="getNotesByCategory" parameterClass="string" resultClass="Note"	resultMap="noteResultMap">
+		SELECT *
+		FROM pensieve.notes
+		WHERE category = #category#
+		ORDER BY start_date, content
+	</select>
+
+	<select id="getBirthdays" parameterClass="hashmap" resultClass="Note" resultMap="birthdayResultMap">
+		SELECT write_bday(id) as content, bday
+		FROM pensieve.contacts
+		WHERE date_part('month',bday) = #month#
+			AND date_part('day',bday) = #day#
+	</select>
+	
+	<select id="getFrequencies" parameterClass="string"
+							resultClass="string">
+	
+		SELECT DISTINCT frequency FROM pensieve.notes
+		WHERE UPPER(frequency) LIKE UPPER(#value# || '%')
+		ORDER BY frequency
+	</select>
+
+	<insert id="insertNote" parameterClass="Note">
+		INSERT into pensieve.notes
+			(id,content,category,start_date,end_date,start_time,end_time,frequency,reminder)
+		VALUES
+			(nextval('pensieve.notes_id_seq'),#content#,#category#,#startDate#,#endDate#,
+				#startTime#,#endTime#,#frequency#,#reminder#)
+	</insert>
+	
+	<update id="updateNote" parameterClass="Note">
+		UPDATE pensieve.notes SET
+			content=#content#,
+			category=#category#,
+			start_date=#startDate#,
+			end_date=#endDate#,
+			start_time=#startTime#,
+			end_time=#endTime#,
+			frequency=#frequency#,
+			reminder=#reminder#
+		WHERE id=#id#
+	</update>
+	
+	<delete id="deleteNote" parameterClass="int">
+		DELETE from pensieve.notes
+		WHERE id=#id#
+	</delete>
+
+</sqlMap>

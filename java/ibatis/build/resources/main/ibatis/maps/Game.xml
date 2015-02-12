@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="nfl">
+
+	<resultMap class="Game" id="gameResultMap">
+		<result property="gameId" column="game_id" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="gameDate" column="game_date" javaType="java.util.Date"
+			jdbcType="DATE"/>			
+		<result property="week" column="week" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="awayTeam" column="away_team_code" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="homeTeam" column="home_team_code" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="q1Away" column="q1_away" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="q2Away" column="q2_away" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="q3Away" column="q3_away" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="q4Away" column="q4_away" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="otAway" column="ot_away" javaType="int"
+			jdbcType="INTEGER"/>	
+		<result property="q1Home" column="q1_home" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="q2Home" column="q2_home" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="q3Home" column="q3_home" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="q4Home" column="q4_home" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="otHome" column="ot_home" javaType="int"
+			jdbcType="INTEGER"/>									
+		<result property="awayScore" column="away_score" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="homeScore" column="home_score" javaType="int"
+			jdbcType="INTEGER"/>					
+	</resultMap>
+	
+	<select id="getGame" parameterClass="string"
+					resultClass="Game" resultMap="gameResultMap">
+		SELECT * FROM nfl.games
+		WHERE game_code = #gameCode#
+	</select>
+	
+	<select id="getNextGameId" resultClass="int">
+		SELECT NEXTVAL('nfl.games_game_id_seq')
+	</select>
+	
+	<select id="liveGameCheck" parameterClass="int"
+								resultClass="int" >
+		SELECT COUNT(*) FROM nfl.live_games
+		WHERE game_id = #gameId#
+	</select>
+	
+	<select id="getPreviousScore" parameterClass="int"
+									resultClass="int">
+		SELECT away_score + home_score
+		FROM nfl.live_games
+		WHERE game_id = #gameId#
+	</select>									
+	
+	<insert id="insertGame" parameterClass="Game">
+		INSERT INTO nfl.games (
+				game_id,
+				game_date,
+				away_team_code,
+				home_team_code,
+				q1_away,
+				q2_away,
+				q3_away,
+				q4_away,
+				ot_away,
+				q1_home,
+				q2_home,
+				q3_home,
+				q4_home,
+				ot_home)
+			VALUES (
+			#gameId#,
+			#gameDate#,
+			#awayTeam#,
+			#homeTeam#,
+			#q1Away#,
+			#q2Away#,
+			#q3Away#,
+			#q4Away#,
+			#otAway#,
+			#q1Home#,
+			#q2Home#,
+			#q3Home#,
+			#q4Home#,
+			#otHome#)
+	</insert>
+	
+	<insert id="insertLiveGame" parameterClass="Game">
+		INSERT INTO nfl.live_games VALUES (
+			#gameId#,
+			#awayTeam#,
+			#homeTeam#,
+			#awayScore#,
+			#homeScore#)
+	</insert>
+	
+	<update id="updateLiveGame" parameterClass="Game">
+		UPDATE nfl.live_games SET
+			away_team_code = #awayTeam#,
+			home_team_code = #homeTeam#,
+			away_score = #awayScore#,
+			home_score = #homeScore#
+			WHERE game_id = #gameId#
+	</update>
+</sqlMap>

@@ -1,0 +1,21 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index
+GET     /test                       controllers.Application.test
+GET     /console                    controllers.Application.console
+GET     /json                       controllers.Application.json
+
+GET     /api-docs.json              controllers.ApiHelpController.getResources
+GET     /api-docs/building          controllers.ApiHelpController.getResource(path = "/api-docs/building")
+GET     /building                   controllers.Application.building
+
+#POST examples
+POST    /post/form                  controllers.PostController.form
+POST    /post/json                  controllers.PostController.json
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+

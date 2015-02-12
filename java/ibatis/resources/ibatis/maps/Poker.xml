@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="poker">
+	
+	<resultMap class="Showdown" id="showdownResultMap">
+		<result property="showId" column="show_id" javaType="int"
+				jdbcType="INTEGER"/>
+		<result property="decision" column="decision" javaType="string"
+				jdbcType="VARCHAR"/>
+		<result property="house" column="house" javaType="string"
+				jdbcType="VARCHAR"/>
+	</resultMap>
+	
+	<resultMap class="Hand" id="handResultMap">
+		<result property="showId" column="show_id" javaType="int"
+				jdbcType="INTEGER"/>
+		<result property="handId" column="hand_id" javaType="int"
+				jdbcType="INTEGER"/>			
+		<result property="handStr" column="hand" javaType="string"
+				jdbcType="VARCHAR"/> 
+		<result property="handSoft" column="hand_soft" javaType="string"
+				jdbcType="VARCHAR"/> 
+		<result property="handHard" column="hand_hard" javaType="string"
+				jdbcType="VARCHAR"/> 				
+		<result property="house" column="house" javaType="string"
+				jdbcType="VARCHAR"/>
+		<result property="decision" column="decision" javaType="string"
+				jdbcType="VARCHAR"/>
+		<result property="profit" column="profit" javaType="double"
+				jdbcType="DOUBLE PRECISION"/>				
+	</resultMap>
+	
+	<select id="getNextBJHandId" resultClass="int">
+		SELECT nextval('poker.hand_seq')
+	</select>
+
+	<insert id="insertHand" parameterClass="Hand">
+		INSERT INTO poker.bj_hand(SHOW_ID,
+							  HAND_ID,
+							  HAND,
+							  HAND_SOFT,
+							  HAND_HARD,
+							  DECISION,
+							  HOUSE,
+							  PROFIT) 
+						   VALUES(#showId#,
+						   		  #handId#,
+						   		  #handStr#,
+								  #handSoft#,
+								  #handHard#,
+           						  #decision#,
+								  #house#,
+								  #profit#)
+	</insert>	
+
+	<insert id="insertShowdown" parameterClass="Showdown">
+		INSERT INTO poker.bj_showdown(SHOW_ID,
+							    DECISION,
+							    HOUSE,
+							    HAND_PROCESSED) 
+							VALUES(#showId#,
+								   #decision#,
+								   #house#,
+								   false)
+	</insert>
+</sqlMap>

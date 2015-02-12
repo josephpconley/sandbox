@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="contact">
+
+	<resultMap class="Contact" id="contactResultMap">
+		<result property="id" column="id" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="firstName" column="firstname" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="lastName" column="lastname" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="bday" column="bday" javaType="java.util.Date"
+			jdbcType="DATE"/>			
+		<result property="address1" column="address1" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="address2" column="address2" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="address3" column="address3" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="address4" column="address4" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="phone1" column="phone1" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="phone2" column="phone2" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="phone3" column="phone3" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="phone4" column="phone4" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="email1" column="email1" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="email2" column="email2" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="email3" column="email3" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="email4" column="email4" javaType="string"
+			jdbcType="VARCHAR"/>	
+		<result property="picFlag" column="pic_flag" javaType="boolean"
+			jdbcType="BOOLEAN"/>
+		<result property="cellService" column="cell_service" javaType="string"
+			jdbcType="VARCHAR"/>				
+	</resultMap>
+	
+	<select id="getAllContacts" resultClass="Contact" resultMap="contactResultMap">
+		SELECT *
+		FROM pensieve.contacts
+		ORDER BY lastname, firstname 
+	</select>
+		
+	<select id="getContactById" parameterClass="string" resultClass="Contact" resultMap="contactResultMap">
+		SELECT *
+		FROM pensieve.contacts
+		WHERE ID = #id# 
+	</select>
+	
+	<select id="isContact" parameterClass="string" resultClass="int">
+							
+		SELECT count(id)
+		FROM pensieve.contacts
+		WHERE id = #id#
+	</select>
+	 
+	<insert id="insertContact" parameterClass="Contact">
+		INSERT INTO pensieve.contacts (ID, firstName, lastName, bday, phone1, phone2, phone3, phone4,
+						address1, address2, address3, address4, email1, email2, email3, email4, cell_service)
+		VALUES (#id#, #firstName#, #lastName#, #bday#, #phone1#,#phone2#, #phone3#, #phone4#,
+				#address1#, #address2#,#address3#,#address4#,#email1#,#email2#,#email3#,
+				#email4#,#cellService#)
+	</insert>
+	<update id="updateContact" parameterClass="Contact">
+		UPDATE pensieve.contacts SET 
+			firstName=#firstName#,
+			lastName=#lastName#,
+			id=#id#,
+			bday= #bday#,
+			phone1=#phone1#,
+			phone2=#phone2#,
+			phone3=#phone3#,
+			phone4=#phone4#,
+			address1=#address1#,
+			address2=#address2#,
+			address3=#address3#,
+			address4=#address4#,
+			email1=#email1#,
+			email2=#email2#,
+			email3=#email3#,
+			email4=#email4#,
+			cell_service=#cellService#
+		WHERE id=#id# 				 
+	</update>
+	
+	<delete id="deleteContact" parameterClass="string">
+		DELETE from pensieve.contacts WHERE id=#id#
+	</delete>
+		
+</sqlMap>

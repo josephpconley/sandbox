@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="../" default="build" name="puzzles">
+
+	<property file="../build.properties"/>
+	
+	<path id="puzzles.classpath">
+		<pathelement location="classes"/>
+		<pathelement location="../lib/ibatis-2.3.4.726.jar"/>
+		<pathelement location="../util/classes"/>
+	</path>	
+	
+	<target name="init">
+		<mkdir dir="classes"/>
+	</target>
+	
+	<target name="build" depends="init" >
+		<javac srcdir="src" destdir="classes" >
+			<classpath refid="puzzles.classpath"/>
+		</javac>
+	</target>
+	
+	<target name="clean">
+		<delete dir="classes"/>
+	</target>
+
+	<target name="run" depends="build">
+		<java classpathref="puzzles.classpath"
+			classname="joejava.puzzles.Decrypter" />
+	</target>
+	
+	<target name="clean-jars">
+		<delete file="${jolty.home}/Encrypter.jar"/>
+		<delete file="${jolty.home}/DeJumbler.jar"/>
+	</target>
+
+	<target name="runE">
+		 <java classpathref="puzzles.classpath" 
+		 	jar="Encrypter.jar"
+			fork="true"/>
+	</target>
+
+	<target name="runJ" depends="jarJ">
+		 <java classpathref="puzzles.classpath" 
+		 	jar="DeJumbler.jar"
+			fork="true"/>
+	</target>
+
+	<target name="jar" >
+		<jar jarfile="Encrypter.jar" basedir="build">
+			<fileset dir="../util/build"/>
+			<manifest>
+				<attribute name="Main-Class" value="joejava.puzzles.EncrypterFrame" />
+				<attribute name="Class-Path" value="puzzles.classpath"/>
+			</manifest>
+		</jar>
+	</target>
+	
+	<target name="jarJ" >
+		<jar jarfile="DeJumbler.jar" basedir="build">
+			<fileset dir="../util/build"/>
+			<fileset dir="../lang/db" />
+			<fileset dir="../lib" />
+			<manifest>
+				<attribute name="Main-Class" value="joejava.puzzles.DeJumblerFrame" />
+				<attribute name="Class-Path" value="puzzles.classpath"/>
+			</manifest>
+		</jar>
+	</target>
+	
+	<target name="applet" depends="build" >
+		<jar jarfile="${jolty.home}/Encryptlet.jar" basedir="classes">
+			<fileset dir="../util/classes"/>
+			<manifest>
+				<attribute name="Main-Class" value="joejava.puzzles.Encryptlet" />
+				<attribute name="Class-Path" value="puzzles.classpath"/>
+			</manifest>
+		</jar>
+		
+		<jar jarfile="${jolty.home}/DeJumblet.jar" basedir="classes">
+			<fileset dir="../util/classes"/>
+			<manifest>
+				<attribute name="Main-Class" value="joejava.puzzles.DeJumblet" />
+				<attribute name="Class-Path" value="lib/ibatis-2.3.4.726.jar lib/postgresql-8.3-604.jdbc4.jar ."/>
+			</manifest>
+		</jar>
+	</target>
+
+</project>

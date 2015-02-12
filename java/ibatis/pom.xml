@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>joejava</groupId>
+  <artifactId>ibatis</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+<build>
+	<sourceDirectory>${basedir}/src/main/java</sourceDirectory>
+		<outputDirectory>${basedir}/target/classes</outputDirectory>
+
+		<resources>
+
+			<resource>
+				<directory>${basedir}/src/main/java</directory>
+				<excludes>
+					<exclude>**/*.java</exclude>
+					<exclude>**/.svn/*</exclude>
+				</excludes>
+			</resource>
+
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<excludes>
+					<exclude>**/.svn/*</exclude>
+				</excludes>
+			</resource>
+		</resources>
+  	<plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-compiler-plugin</artifactId>
+			<configuration>
+				<source>1.5</source>
+				<target>1.5</target>
+			</configuration>
+		</plugin>
+  	</plugins>
+  </build>
+<dependencies>
+	<dependency>
+		<groupId>com.ibatis</groupId>
+		<artifactId>ibatis2-common</artifactId>
+		<version>2.1.7.597</version>
+	</dependency>
+	<dependency>
+		<groupId>com.ibatis</groupId>
+		<artifactId>ibatis2-dao</artifactId>
+		<version>2.1.7.597</version>
+	</dependency>
+	<dependency>
+		<groupId>com.ibatis</groupId>
+		<artifactId>ibatis2-sqlmap</artifactId>
+		<version>2.1.7.597</version>
+	</dependency>
+</dependencies>  
+</project>

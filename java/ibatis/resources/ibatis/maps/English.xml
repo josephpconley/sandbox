@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="english">
+
+	<select id="getWords" parameterClass="string"
+					resultClass="string">
+		SELECT word 
+		FROM puzzles.$table$
+	</select>
+	
+	<select id="getWordCount" parameterClass="int"
+					resultClass="int">
+		SELECT numWords 
+		FROM wordCount
+		WHERE wordLength = #value#
+	</select>	
+	
+	<select id="getFreq" parameterClass="hashmap"
+							resultClass="int">
+		
+			SELECT freq
+			FROM puzzles.$table$
+			WHERE word=#word#
+	</select>
+	
+	<!-- 
+	<select id="getWordBean" parameterClass="hashmap"
+						resultClass="wordbean">
+		SELECT *
+		FROM $table$
+		WHERE word=#word#
+	</select>	
+	-->
+	
+	<update id="updateFreq" parameterClass="hashmap">
+		UPDATE puzzles.$table$
+		SET freq=#freq#
+		WHERE word=#word#
+	</update>
+	
+<!--	DictionaryMaker operations	-->	
+	
+	<insert id="insertWord" parameterClass="hashmap">
+		INSERT INTO puzzles.$table$
+		(word,freq)
+		VALUES (#word#,0)
+	</insert>
+	
+	<delete id="emptyTable" parameterClass="string">
+		DELETE 
+		FROM puzzles.$table$ 
+	</delete>
+	
+		<insert id="insertWordCount" parameterClass="int">
+		INSERT INTO puzzles.dcount
+		(wordlength,numwords)
+		VALUES (#value#,0)
+	</insert>
+	
+	<update id="updateWordCount" parameterClass="hashmap">
+		UPDATE puzzles.wordcount 
+		SET numwords = #count#
+		WHERE wordlength = #length#
+	</update>
+	
+	<statement id="createWordTables" parameterClass="hashmap">
+		CREATE TABLE puzzles.$table$
+		(word char(#len#),	freq double)
+	</statement>
+	
+</sqlMap>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="golf">
+
+	<resultMap class="Round" id="roundResultMap">
+		<result property="roundId" column="round_id" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="courseId" column="course_id" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="username" column="username" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="score" column="score" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="roundDate" column="round_date" javaType="java.util.Date"
+			jdbcType="DATE"/>
+	</resultMap>
+
+	<select id="getRounds" parameterClass="string"
+		resultClass="Round" resultMap="roundResultMap">
+		SELECT * from golf.rounds
+		WHERE username=#value#
+		ORDER BY score
+	</select>
+	
+	<select id="getRoundById" parameterClass="int"
+		resultClass="Round" resultMap="roundResultMap">
+		SELECT * from golf.rounds
+		WHERE round_id=#value#
+	</select>
+	
+	<insert id="insertRound" parameterClass="Round">
+		INSERT into golf.rounds (course_id,username,score,round_date)
+		 VALUES (#courseId#,#username#,#score#,#roundDate#)
+	</insert>
+	
+	<update id="updateRound" parameterClass="Round">
+		UPDATE golf.rounds
+		SET course_id = #courseId#,
+			username = #username#,
+			score = #score#,
+			round_date = #roundDate#
+		WHERE round_id = #roundId#
+	</update>
+	
+	<delete id="deleteRound" parameterClass="int">
+		DELETE
+		FROM golf.rounds
+		WHERE round_id = #roundId#
+	</delete>	
+</sqlMap>

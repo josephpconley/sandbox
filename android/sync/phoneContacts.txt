@@ -1,0 +1,1516 @@
+08-24 11:14:23.437: INFO/log(2390): Getting SMS Messages
+08-24 11:14:23.562: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.562: INFO/log(2390): 2 person 253
+08-24 11:14:23.562: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.562: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.562: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.562: INFO/log(2390): 6 label null
+08-24 11:14:23.562: INFO/log(2390): 7 number (215) 284-7688
+08-24 11:14:23.562: INFO/log(2390): 8 type 2
+08-24 11:14:23.562: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.562: INFO/log(2390): 10 display_name Frank Mcgaley
+08-24 11:14:23.562: INFO/log(2390): 11 _id 1574
+08-24 11:14:23.562: INFO/log(2390): 12 number_key 8867482512
+08-24 11:14:23.562: INFO/log(2390): 13 starred 0
+08-24 11:14:23.562: INFO/log(2390): 14 primary_email 1572
+08-24 11:14:23.562: INFO/log(2390): 15 name Frank Mcgaley
+08-24 11:14:23.562: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.562: INFO/log(2390): 17 notes ----------------------------------------------------
+08-24 11:14:23.562: INFO/log(2390): Details Updated 12/10/2010:
+08-24 11:14:23.562: INFO/log(2390):     Business Address Country/Region: UNITED STATES United States
+08-24 11:14:23.562: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.562: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.562: INFO/log(2390): 2 person 253
+08-24 11:14:23.562: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.562: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.562: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.562: INFO/log(2390): 6 label null
+08-24 11:14:23.562: INFO/log(2390): 7 number (215) 574-7491
+08-24 11:14:23.562: INFO/log(2390): 8 type 13
+08-24 11:14:23.562: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.562: INFO/log(2390): 10 display_name Frank Mcgaley
+08-24 11:14:23.562: INFO/log(2390): 11 _id 1575
+08-24 11:14:23.562: INFO/log(2390): 12 number_key 1947475512
+08-24 11:14:23.562: INFO/log(2390): 13 starred 0
+08-24 11:14:23.562: INFO/log(2390): 14 primary_email 1572
+08-24 11:14:23.562: INFO/log(2390): 15 name Frank Mcgaley
+08-24 11:14:23.562: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.562: INFO/log(2390): 17 notes ----------------------------------------------------
+08-24 11:14:23.562: INFO/log(2390): Details Updated 12/10/2010:
+08-24 11:14:23.562: INFO/log(2390):     Business Address Country/Region: UNITED STATES United States
+08-24 11:14:23.562: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.562: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.562: INFO/log(2390): 2 person 305
+08-24 11:14:23.562: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.562: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.562: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.562: INFO/log(2390): 6 label null
+08-24 11:14:23.562: INFO/log(2390): 7 number (215) 629-8250
+08-24 11:14:23.562: INFO/log(2390): 8 type 3
+08-24 11:14:23.562: INFO/log(2390): 9 last_time_contacted 1304549154281
+08-24 11:14:23.562: INFO/log(2390): 10 display_name Adam Stokar
+08-24 11:14:23.562: INFO/log(2390): 11 _id 1819
+08-24 11:14:23.562: INFO/log(2390): 12 number_key 0528926512
+08-24 11:14:23.562: INFO/log(2390): 13 starred 0
+08-24 11:14:23.562: INFO/log(2390): 14 primary_email 1817
+08-24 11:14:23.562: INFO/log(2390): 15 name Adam Stokar
+08-24 11:14:23.562: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.562: INFO/log(2390): 17 notes ----------------------------------------------------
+08-24 11:14:23.562: INFO/log(2390): Details Updated 12/10/2010:
+08-24 11:14:23.562: INFO/log(2390):     Business Address Street: 510 Walnut Street
+08-24 11:14:23.562: INFO/log(2390): 3rd Floor
+08-24 11:14:23.562: INFO/log(2390):     Business Address City: Philadelphia
+08-24 11:14:23.562: INFO/log(2390):     Business Address State: Pennsylvania
+08-24 11:14:23.562: INFO/log(2390):     Business Address Country/Region: United States
+08-24 11:14:23.562: INFO/log(2390):     Business Address Postal Code: 19106
+08-24 11:14:23.562: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.562: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.562: INFO/log(2390): 2 person 253
+08-24 11:14:23.562: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.562: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.562: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.562: INFO/log(2390): 6 label null
+08-24 11:14:23.562: INFO/log(2390): 7 number (215) 629-8914
+08-24 11:14:23.562: INFO/log(2390): 8 type 3
+08-24 11:14:23.562: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.562: INFO/log(2390): 10 display_name Frank Mcgaley
+08-24 11:14:23.562: INFO/log(2390): 11 _id 1576
+08-24 11:14:23.562: INFO/log(2390): 12 number_key 4198926512
+08-24 11:14:23.562: INFO/log(2390): 13 starred 0
+08-24 11:14:23.562: INFO/log(2390): 14 primary_email 1572
+08-24 11:14:23.562: INFO/log(2390): 15 name Frank Mcgaley
+08-24 11:14:23.562: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.562: INFO/log(2390): 17 notes ----------------------------------------------------
+08-24 11:14:23.562: INFO/log(2390): Details Updated 12/10/2010:
+08-24 11:14:23.562: INFO/log(2390):     Business Address Country/Region: UNITED STATES United States
+08-24 11:14:23.562: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.562: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.562: INFO/log(2390): 2 person 305
+08-24 11:14:23.562: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.562: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.562: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.562: INFO/log(2390): 6 label null
+08-24 11:14:23.562: INFO/log(2390): 7 number (215) 847-0493
+08-24 11:14:23.562: INFO/log(2390): 8 type 7
+08-24 11:14:23.562: INFO/log(2390): 9 last_time_contacted 1304549154281
+08-24 11:14:23.562: INFO/log(2390): 10 display_name Adam Stokar
+08-24 11:14:23.562: INFO/log(2390): 11 _id 1820
+08-24 11:14:23.562: INFO/log(2390): 12 number_key 3940748512
+08-24 11:14:23.562: INFO/log(2390): 13 starred 0
+08-24 11:14:23.562: INFO/log(2390): 14 primary_email 1817
+08-24 11:14:23.562: INFO/log(2390): 15 name Adam Stokar
+08-24 11:14:23.562: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.562: INFO/log(2390): 17 notes ----------------------------------------------------
+08-24 11:14:23.562: INFO/log(2390): Details Updated 12/10/2010:
+08-24 11:14:23.562: INFO/log(2390):     Business Address Street: 510 Walnut Street
+08-24 11:14:23.562: INFO/log(2390): 3rd Floor
+08-24 11:14:23.562: INFO/log(2390):     Business Address City: Philadelphia
+08-24 11:14:23.562: INFO/log(2390):     Business Address State: Pennsylvania
+08-24 11:14:23.562: INFO/log(2390):     Business Address Country/Region: United States
+08-24 11:14:23.562: INFO/log(2390):     Business Address Postal Code: 19106
+08-24 11:14:23.562: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.562: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.562: INFO/log(2390): 2 person 251
+08-24 11:14:23.562: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.562: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.562: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.562: INFO/log(2390): 6 label null
+08-24 11:14:23.562: INFO/log(2390): 7 number *86
+08-24 11:14:23.562: INFO/log(2390): 8 type 3
+08-24 11:14:23.562: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.562: INFO/log(2390): 10 display_name Voicemail
+08-24 11:14:23.562: INFO/log(2390): 11 _id 1102
+08-24 11:14:23.562: INFO/log(2390): 12 number_key 68*
+08-24 11:14:23.562: INFO/log(2390): 13 starred 0
+08-24 11:14:23.562: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.562: INFO/log(2390): 15 name Voicemail
+08-24 11:14:23.562: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.562: INFO/log(2390): 17 notes 
+08-24 11:14:23.562: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.562: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.562: INFO/log(2390): 2 person 345
+08-24 11:14:23.562: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.562: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.562: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.562: INFO/log(2390): 6 label null
+08-24 11:14:23.562: INFO/log(2390): 7 number 1-347-247-5916
+08-24 11:14:23.562: INFO/log(2390): 8 type 2
+08-24 11:14:23.562: INFO/log(2390): 9 last_time_contacted 1313362572486
+08-24 11:14:23.562: INFO/log(2390): 10 display_name Mike Genereux
+08-24 11:14:23.562: INFO/log(2390): 11 _id 2158
+08-24 11:14:23.569: INFO/log(2390): 12 number_key 61957427431
+08-24 11:14:23.569: INFO/log(2390): 13 starred 0
+08-24 11:14:23.569: INFO/log(2390): 14 primary_email 2154
+08-24 11:14:23.569: INFO/log(2390): 15 name Mike Genereux
+08-24 11:14:23.569: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.569: INFO/log(2390): 17 notes 
+08-24 11:14:23.569: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.569: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.569: INFO/log(2390): 2 person 255
+08-24 11:14:23.569: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.569: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.569: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.569: INFO/log(2390): 6 label null
+08-24 11:14:23.569: INFO/log(2390): 7 number 1-484-645-9399
+08-24 11:14:23.569: INFO/log(2390): 8 type 1
+08-24 11:14:23.569: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.569: INFO/log(2390): 10 display_name Angela Hayes
+08-24 11:14:23.569: INFO/log(2390): 11 _id 1130
+08-24 11:14:23.569: INFO/log(2390): 12 number_key 99395464841
+08-24 11:14:23.569: INFO/log(2390): 13 starred 0
+08-24 11:14:23.569: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.569: INFO/log(2390): 15 name Angela Hayes
+08-24 11:14:23.569: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.569: INFO/log(2390): 17 notes 
+08-24 11:14:23.569: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.569: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.569: INFO/log(2390): 2 person 235
+08-24 11:14:23.569: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.569: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.569: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.569: INFO/log(2390): 6 label null
+08-24 11:14:23.569: INFO/log(2390): 7 number 107
+08-24 11:14:23.569: INFO/log(2390): 8 type 7
+08-24 11:14:23.569: INFO/log(2390): 9 last_time_contacted 0
+08-24 11:14:23.569: INFO/log(2390): 10 display_name Kevin McCarthy
+08-24 11:14:23.569: INFO/log(2390): 11 _id 744
+08-24 11:14:23.569: INFO/log(2390): 12 number_key 701
+08-24 11:14:23.569: INFO/log(2390): 13 starred 0
+08-24 11:14:23.569: INFO/log(2390): 14 primary_email 1079
+08-24 11:14:23.569: INFO/log(2390): 15 name Kevin McCarthy
+08-24 11:14:23.569: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.569: INFO/log(2390): 17 notes 
+08-24 11:14:23.569: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.569: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.569: INFO/log(2390): 2 person 283
+08-24 11:14:23.569: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.569: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.569: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.569: INFO/log(2390): 6 label null
+08-24 11:14:23.569: INFO/log(2390): 7 number 12159138606
+08-24 11:14:23.569: INFO/log(2390): 8 type 1
+08-24 11:14:23.569: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.569: INFO/log(2390): 10 display_name Joseph Sunny
+08-24 11:14:23.569: INFO/log(2390): 11 _id 1326
+08-24 11:14:23.569: INFO/log(2390): 12 number_key 60683195121
+08-24 11:14:23.569: INFO/log(2390): 13 starred 0
+08-24 11:14:23.569: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.569: INFO/log(2390): 15 name Joseph Sunny
+08-24 11:14:23.569: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.569: INFO/log(2390): 17 notes 
+08-24 11:14:23.569: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.569: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.569: INFO/log(2390): 2 person 274
+08-24 11:14:23.569: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.577: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.577: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.577: INFO/log(2390): 6 label null
+08-24 11:14:23.577: INFO/log(2390): 7 number 12673129983
+08-24 11:14:23.577: INFO/log(2390): 8 type 1
+08-24 11:14:23.577: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.577: INFO/log(2390): 10 display_name Lauren Vasta
+08-24 11:14:23.577: INFO/log(2390): 11 _id 1263
+08-24 11:14:23.577: INFO/log(2390): 12 number_key 38992137621
+08-24 11:14:23.577: INFO/log(2390): 13 starred 0
+08-24 11:14:23.577: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.577: INFO/log(2390): 15 name Lauren Vasta
+08-24 11:14:23.577: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.577: INFO/log(2390): 17 notes 
+08-24 11:14:23.585: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.585: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.585: INFO/log(2390): 2 person 272
+08-24 11:14:23.585: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.585: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.585: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.585: INFO/log(2390): 6 label null
+08-24 11:14:23.585: INFO/log(2390): 7 number 13012044459
+08-24 11:14:23.585: INFO/log(2390): 8 type 1
+08-24 11:14:23.585: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.585: INFO/log(2390): 10 display_name Justin Wells
+08-24 11:14:23.585: INFO/log(2390): 11 _id 1249
+08-24 11:14:23.585: INFO/log(2390): 12 number_key 95444021031
+08-24 11:14:23.585: INFO/log(2390): 13 starred 0
+08-24 11:14:23.585: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.585: INFO/log(2390): 15 name Justin Wells
+08-24 11:14:23.585: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.585: INFO/log(2390): 17 notes 
+08-24 11:14:23.585: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.585: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.585: INFO/log(2390): 2 person 265
+08-24 11:14:23.585: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.585: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.585: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.585: INFO/log(2390): 6 label null
+08-24 11:14:23.585: INFO/log(2390): 7 number 14845744299
+08-24 11:14:23.585: INFO/log(2390): 8 type 2
+08-24 11:14:23.585: INFO/log(2390): 9 last_time_contacted 1313713591458
+08-24 11:14:23.585: INFO/log(2390): 10 display_name Stephen Ace Phillips
+08-24 11:14:23.585: INFO/log(2390): 11 _id 1200
+08-24 11:14:23.585: INFO/log(2390): 12 number_key 99244754841
+08-24 11:14:23.585: INFO/log(2390): 13 starred 0
+08-24 11:14:23.585: INFO/log(2390): 14 primary_email 4224
+08-24 11:14:23.585: INFO/log(2390): 15 name Stephen Ace Phillips
+08-24 11:14:23.585: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.585: INFO/log(2390): 17 notes 
+08-24 11:14:23.585: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.585: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.585: INFO/log(2390): 2 person 20
+08-24 11:14:23.585: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.585: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.585: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.585: INFO/log(2390): 6 label null
+08-24 11:14:23.585: INFO/log(2390): 7 number 15165814579
+08-24 11:14:23.585: INFO/log(2390): 8 type 1
+08-24 11:14:23.585: INFO/log(2390): 9 last_time_contacted 1313248906289
+08-24 11:14:23.585: INFO/log(2390): 10 display_name Kevin Carbonetti
+08-24 11:14:23.585: INFO/log(2390): 11 _id 1483
+08-24 11:14:23.585: INFO/log(2390): 12 number_key 97541856151
+08-24 11:14:23.585: INFO/log(2390): 13 starred 0
+08-24 11:14:23.585: INFO/log(2390): 14 primary_email 84
+08-24 11:14:23.585: INFO/log(2390): 15 name Kevin Carbonetti
+08-24 11:14:23.585: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.585: INFO/log(2390): 17 notes 
+08-24 11:14:23.585: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.585: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.585: INFO/log(2390): 2 person 353
+08-24 11:14:23.585: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.585: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.585: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.585: INFO/log(2390): 6 label null
+08-24 11:14:23.585: INFO/log(2390): 7 number 16077252923
+08-24 11:14:23.585: INFO/log(2390): 8 type 1
+08-24 11:14:23.585: INFO/log(2390): 9 last_time_contacted 1313248906289
+08-24 11:14:23.585: INFO/log(2390): 10 display_name Tom Regan
+08-24 11:14:23.585: INFO/log(2390): 11 _id 2270
+08-24 11:14:23.585: INFO/log(2390): 12 number_key 32925277061
+08-24 11:14:23.585: INFO/log(2390): 13 starred 0
+08-24 11:14:23.585: INFO/log(2390): 14 primary_email 2266
+08-24 11:14:23.585: INFO/log(2390): 15 name Tom Regan
+08-24 11:14:23.585: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.585: INFO/log(2390): 17 notes 
+08-24 11:14:23.585: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.585: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.585: INFO/log(2390): 2 person 254
+08-24 11:14:23.585: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.585: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.585: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.585: INFO/log(2390): 6 label null
+08-24 11:14:23.585: INFO/log(2390): 7 number 16096363321
+08-24 11:14:23.585: INFO/log(2390): 8 type 1
+08-24 11:14:23.585: INFO/log(2390): 9 last_time_contacted 1312934236386
+08-24 11:14:23.585: INFO/log(2390): 10 display_name Joe Jankauskas
+08-24 11:14:23.585: INFO/log(2390): 11 _id 1123
+08-24 11:14:23.585: INFO/log(2390): 12 number_key 12336369061
+08-24 11:14:23.585: INFO/log(2390): 13 starred 0
+08-24 11:14:23.585: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.585: INFO/log(2390): 15 name Joe Jankauskas
+08-24 11:14:23.585: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.585: INFO/log(2390): 17 notes 
+08-24 11:14:23.585: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.585: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.585: INFO/log(2390): 2 person 303
+08-24 11:14:23.585: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.585: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.585: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.585: INFO/log(2390): 6 label null
+08-24 11:14:23.585: INFO/log(2390): 7 number 16102131114
+08-24 11:14:23.585: INFO/log(2390): 8 type 1
+08-24 11:14:23.585: INFO/log(2390): 9 last_time_contacted 1313248906289
+08-24 11:14:23.585: INFO/log(2390): 10 display_name Andrew Lynch
+08-24 11:14:23.585: INFO/log(2390): 11 _id 1467
+08-24 11:14:23.585: INFO/log(2390): 12 number_key 41113120161
+08-24 11:14:23.585: INFO/log(2390): 13 starred 0
+08-24 11:14:23.585: INFO/log(2390): 14 primary_email 2563
+08-24 11:14:23.585: INFO/log(2390): 15 name Andrew Lynch
+08-24 11:14:23.585: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.585: INFO/log(2390): 17 notes 
+08-24 11:14:23.585: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.585: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.585: INFO/log(2390): 2 person 266
+08-24 11:14:23.585: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.585: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.585: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.585: INFO/log(2390): 6 label null
+08-24 11:14:23.585: INFO/log(2390): 7 number 16103316334
+08-24 11:14:23.585: INFO/log(2390): 8 type 2
+08-24 11:14:23.585: INFO/log(2390): 9 last_time_contacted 1312084017652
+08-24 11:14:23.585: INFO/log(2390): 10 display_name Brian Iredell
+08-24 11:14:23.585: INFO/log(2390): 11 _id 1207
+08-24 11:14:23.585: INFO/log(2390): 12 number_key 43361330161
+08-24 11:14:23.585: INFO/log(2390): 13 starred 0
+08-24 11:14:23.585: INFO/log(2390): 14 primary_email 3777
+08-24 11:14:23.585: INFO/log(2390): 15 name Brian Iredell
+08-24 11:14:23.585: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.585: INFO/log(2390): 17 notes 
+08-24 11:14:23.585: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.585: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.585: INFO/log(2390): 2 person 263
+08-24 11:14:23.585: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.585: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.585: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.585: INFO/log(2390): 6 label null
+08-24 11:14:23.585: INFO/log(2390): 7 number 16107619403
+08-24 11:14:23.585: INFO/log(2390): 8 type 1
+08-24 11:14:23.585: INFO/log(2390): 9 last_time_contacted 1313029702467
+08-24 11:14:23.585: INFO/log(2390): 10 display_name Lauren Conley
+08-24 11:14:23.585: INFO/log(2390): 11 _id 1186
+08-24 11:14:23.585: INFO/log(2390): 12 number_key 30491670161
+08-24 11:14:23.585: INFO/log(2390): 13 starred 1
+08-24 11:14:23.585: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.601: INFO/log(2390): 15 name Lauren Conley
+08-24 11:14:23.601: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.601: INFO/log(2390): 17 notes 
+08-24 11:14:23.601: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.601: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.601: INFO/log(2390): 2 person 27
+08-24 11:14:23.601: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.601: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.601: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.601: INFO/log(2390): 6 label null
+08-24 11:14:23.601: INFO/log(2390): 7 number 16179478735
+08-24 11:14:23.601: INFO/log(2390): 8 type 2
+08-24 11:14:23.601: INFO/log(2390): 9 last_time_contacted 1311439625538
+08-24 11:14:23.601: INFO/log(2390): 10 display_name Tony Weinbeck
+08-24 11:14:23.601: INFO/log(2390): 11 _id 1482
+08-24 11:14:23.601: INFO/log(2390): 12 number_key 53787497161
+08-24 11:14:23.601: INFO/log(2390): 13 starred 0
+08-24 11:14:23.601: INFO/log(2390): 14 primary_email 2479
+08-24 11:14:23.601: INFO/log(2390): 15 name Tony Weinbeck
+08-24 11:14:23.601: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.601: INFO/log(2390): 17 notes 
+08-24 11:14:23.601: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.601: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.601: INFO/log(2390): 2 person 275
+08-24 11:14:23.601: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.601: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.601: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.601: INFO/log(2390): 6 label null
+08-24 11:14:23.601: INFO/log(2390): 7 number 16307305889
+08-24 11:14:23.601: INFO/log(2390): 8 type 2
+08-24 11:14:23.601: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.601: INFO/log(2390): 10 display_name Dani Jankauskas
+08-24 11:14:23.601: INFO/log(2390): 11 _id 1270
+08-24 11:14:23.601: INFO/log(2390): 12 number_key 98850370361
+08-24 11:14:23.601: INFO/log(2390): 13 starred 0
+08-24 11:14:23.601: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.601: INFO/log(2390): 15 name Dani Jankauskas
+08-24 11:14:23.601: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.601: INFO/log(2390): 17 notes 
+08-24 11:14:23.601: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.601: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.601: INFO/log(2390): 2 person 289
+08-24 11:14:23.601: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.601: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.601: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.601: INFO/log(2390): 6 label null
+08-24 11:14:23.601: INFO/log(2390): 7 number 18009220204
+08-24 11:14:23.601: INFO/log(2390): 8 type 3
+08-24 11:14:23.601: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.601: INFO/log(2390): 10 display_name Technical Support
+08-24 11:14:23.601: INFO/log(2390): 11 _id 1369
+08-24 11:14:23.601: INFO/log(2390): 12 number_key 40202290081
+08-24 11:14:23.601: INFO/log(2390): 13 starred 0
+08-24 11:14:23.601: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.601: INFO/log(2390): 15 name Technical Support
+08-24 11:14:23.601: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.601: INFO/log(2390): 17 notes 
+08-24 11:14:23.601: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.601: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.601: INFO/log(2390): 2 person 300
+08-24 11:14:23.601: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.601: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.601: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.601: INFO/log(2390): 6 label null
+08-24 11:14:23.601: INFO/log(2390): 7 number 18452588655
+08-24 11:14:23.601: INFO/log(2390): 8 type 1
+08-24 11:14:23.601: INFO/log(2390): 9 last_time_contacted 1313248906289
+08-24 11:14:23.601: INFO/log(2390): 10 display_name Nick Connolly
+08-24 11:14:23.601: INFO/log(2390): 11 _id 1446
+08-24 11:14:23.601: INFO/log(2390): 12 number_key 55688525481
+08-24 11:14:23.601: INFO/log(2390): 13 starred 0
+08-24 11:14:23.601: INFO/log(2390): 14 primary_email 1494
+08-24 11:14:23.601: INFO/log(2390): 15 name Nick Connolly
+08-24 11:14:23.601: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.601: INFO/log(2390): 17 notes 
+08-24 11:14:23.601: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.601: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.601: INFO/log(2390): 2 person 252
+08-24 11:14:23.601: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.601: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.601: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.601: INFO/log(2390): 6 label null
+08-24 11:14:23.601: INFO/log(2390): 7 number 18565201302
+08-24 11:14:23.601: INFO/log(2390): 8 type 2
+08-24 11:14:23.601: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.601: INFO/log(2390): 10 display_name Chris Dominguez
+08-24 11:14:23.601: INFO/log(2390): 11 _id 1109
+08-24 11:14:23.601: INFO/log(2390): 12 number_key 20310256581
+08-24 11:14:23.601: INFO/log(2390): 13 starred 0
+08-24 11:14:23.601: INFO/log(2390): 14 primary_email 2977
+08-24 11:14:23.601: INFO/log(2390): 15 name Chris Dominguez
+08-24 11:14:23.601: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.601: INFO/log(2390): 17 notes 
+08-24 11:14:23.601: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.601: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.601: INFO/log(2390): 2 person 18
+08-24 11:14:23.601: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.601: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.601: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.601: INFO/log(2390): 6 label null
+08-24 11:14:23.601: INFO/log(2390): 7 number 19176566873
+08-24 11:14:23.601: INFO/log(2390): 8 type 2
+08-24 11:14:23.601: INFO/log(2390): 9 last_time_contacted 1313248906289
+08-24 11:14:23.601: INFO/log(2390): 10 display_name Josh Rosas
+08-24 11:14:23.601: INFO/log(2390): 11 _id 1489
+08-24 11:14:23.608: INFO/log(2390): 12 number_key 37866567191
+08-24 11:14:23.608: INFO/log(2390): 13 starred 0
+08-24 11:14:23.608: INFO/log(2390): 14 primary_email 72
+08-24 11:14:23.608: INFO/log(2390): 15 name Josh Rosas
+08-24 11:14:23.608: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.608: INFO/log(2390): 17 notes 
+08-24 11:14:23.608: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.616: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.616: INFO/log(2390): 2 person 256
+08-24 11:14:23.616: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.616: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.616: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.616: INFO/log(2390): 6 label null
+08-24 11:14:23.616: INFO/log(2390): 7 number 2153536731
+08-24 11:14:23.616: INFO/log(2390): 8 type 2
+08-24 11:14:23.616: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.616: INFO/log(2390): 10 display_name Bob Welsh
+08-24 11:14:23.616: INFO/log(2390): 11 _id 1137
+08-24 11:14:23.616: INFO/log(2390): 12 number_key 1376353512
+08-24 11:14:23.616: INFO/log(2390): 13 starred 0
+08-24 11:14:23.616: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.616: INFO/log(2390): 15 name Bob Welsh
+08-24 11:14:23.616: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.616: INFO/log(2390): 17 notes 
+08-24 11:14:23.616: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.616: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.616: INFO/log(2390): 2 person 406
+08-24 11:14:23.616: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.616: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.616: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.616: INFO/log(2390): 6 label null
+08-24 11:14:23.616: INFO/log(2390): 7 number 2156294550
+08-24 11:14:23.616: INFO/log(2390): 8 type 2
+08-24 11:14:23.616: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.616: INFO/log(2390): 10 display_name Barbara Antoninich
+08-24 11:14:23.616: INFO/log(2390): 11 _id 2880
+08-24 11:14:23.616: INFO/log(2390): 12 number_key 0554926512
+08-24 11:14:23.616: INFO/log(2390): 13 starred 0
+08-24 11:14:23.616: INFO/log(2390): 14 primary_email 2877
+08-24 11:14:23.616: INFO/log(2390): 15 name Barbara Antoninich
+08-24 11:14:23.616: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.616: INFO/log(2390): 17 notes 
+08-24 11:14:23.616: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.616: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.616: INFO/log(2390): 2 person 277
+08-24 11:14:23.616: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.616: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.616: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.616: INFO/log(2390): 6 label null
+08-24 11:14:23.616: INFO/log(2390): 7 number 2156325195
+08-24 11:14:23.616: INFO/log(2390): 8 type 1
+08-24 11:14:23.616: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.616: INFO/log(2390): 10 display_name Aunt Joan
+08-24 11:14:23.616: INFO/log(2390): 11 _id 1284
+08-24 11:14:23.616: INFO/log(2390): 12 number_key 5915236512
+08-24 11:14:23.616: INFO/log(2390): 13 starred 0
+08-24 11:14:23.616: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.616: INFO/log(2390): 15 name Aunt Joan
+08-24 11:14:23.616: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.616: INFO/log(2390): 17 notes 
+08-24 11:14:23.616: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.616: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.616: INFO/log(2390): 2 person 248
+08-24 11:14:23.616: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.616: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.616: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.616: INFO/log(2390): 6 label null
+08-24 11:14:23.616: INFO/log(2390): 7 number 3025300905
+08-24 11:14:23.616: INFO/log(2390): 8 type 2
+08-24 11:14:23.616: INFO/log(2390): 9 last_time_contacted 1311888350734
+08-24 11:14:23.616: INFO/log(2390): 10 display_name Joe Conley
+08-24 11:14:23.616: INFO/log(2390): 11 _id 1500
+08-24 11:14:23.616: INFO/log(2390): 12 number_key 5090035203
+08-24 11:14:23.616: INFO/log(2390): 13 starred 1
+08-24 11:14:23.616: INFO/log(2390): 14 primary_email 4214
+08-24 11:14:23.616: INFO/log(2390): 15 name Joe Conley
+08-24 11:14:23.616: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.616: INFO/log(2390): 17 notes 
+08-24 11:14:23.616: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.616: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.616: INFO/log(2390): 2 person 268
+08-24 11:14:23.616: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.616: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.616: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.616: INFO/log(2390): 6 label null
+08-24 11:14:23.616: INFO/log(2390): 7 number 484-431-4486
+08-24 11:14:23.616: INFO/log(2390): 8 type 2
+08-24 11:14:23.616: INFO/log(2390): 9 last_time_contacted 1313712415358
+08-24 11:14:23.616: INFO/log(2390): 10 display_name Gpop and Gmom
+08-24 11:14:23.616: INFO/log(2390): 11 _id 1221
+08-24 11:14:23.616: INFO/log(2390): 12 number_key 6844134484
+08-24 11:14:23.616: INFO/log(2390): 13 starred 1
+08-24 11:14:23.616: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.616: INFO/log(2390): 15 name Gpop and Gmom
+08-24 11:14:23.616: INFO/log(2390): 16 primary_phone 2624
+08-24 11:14:23.616: INFO/log(2390): 17 notes 
+08-24 11:14:23.616: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.616: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.616: INFO/log(2390): 2 person 298
+08-24 11:14:23.616: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.616: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.616: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.616: INFO/log(2390): 6 label null
+08-24 11:14:23.616: INFO/log(2390): 7 number 484-723-3850
+08-24 11:14:23.616: INFO/log(2390): 8 type 7
+08-24 11:14:23.616: INFO/log(2390): 9 last_time_contacted 1307910142411
+08-24 11:14:23.616: INFO/log(2390): 10 display_name Sean Doyle
+08-24 11:14:23.616: INFO/log(2390): 11 _id 1432
+08-24 11:14:23.616: INFO/log(2390): 12 number_key 0583327484
+08-24 11:14:23.616: INFO/log(2390): 13 starred 0
+08-24 11:14:23.616: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.616: INFO/log(2390): 15 name Sean Doyle
+08-24 11:14:23.616: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.616: INFO/log(2390): 17 notes 
+08-24 11:14:23.616: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.616: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.616: INFO/log(2390): 2 person 291
+08-24 11:14:23.616: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.616: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.616: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.616: INFO/log(2390): 6 label null
+08-24 11:14:23.616: INFO/log(2390): 7 number 4844671782
+08-24 11:14:23.616: INFO/log(2390): 8 type 1
+08-24 11:14:23.616: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.616: INFO/log(2390): 10 display_name Frank Smileyface
+08-24 11:14:23.616: INFO/log(2390): 11 _id 1383
+08-24 11:14:23.616: INFO/log(2390): 12 number_key 2871764484
+08-24 11:14:23.616: INFO/log(2390): 13 starred 0
+08-24 11:14:23.616: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.616: INFO/log(2390): 15 name Frank Smileyface
+08-24 11:14:23.616: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.616: INFO/log(2390): 17 notes 
+08-24 11:14:23.616: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.616: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.616: INFO/log(2390): 2 person 404
+08-24 11:14:23.616: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.616: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.616: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.616: INFO/log(2390): 6 label null
+08-24 11:14:23.616: INFO/log(2390): 7 number 4844677926
+08-24 11:14:23.616: INFO/log(2390): 8 type 3
+08-24 11:14:23.616: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.616: INFO/log(2390): 10 display_name Eli Miller
+08-24 11:14:23.616: INFO/log(2390): 11 _id 2849
+08-24 11:14:23.616: INFO/log(2390): 12 number_key 6297764484
+08-24 11:14:23.616: INFO/log(2390): 13 starred 0
+08-24 11:14:23.616: INFO/log(2390): 14 primary_email 2846
+08-24 11:14:23.616: INFO/log(2390): 15 name Eli Miller
+08-24 11:14:23.616: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.616: INFO/log(2390): 17 notes 
+08-24 11:14:23.616: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.616: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.616: INFO/log(2390): 2 person 262
+08-24 11:14:23.616: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.616: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.616: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.616: INFO/log(2390): 6 label null
+08-24 11:14:23.616: INFO/log(2390): 7 number 4845742150
+08-24 11:14:23.616: INFO/log(2390): 8 type 2
+08-24 11:14:23.616: INFO/log(2390): 9 last_time_contacted 1314039547274
+08-24 11:14:23.616: INFO/log(2390): 10 display_name David Stortini
+08-24 11:14:23.616: INFO/log(2390): 11 _id 1179
+08-24 11:14:23.616: INFO/log(2390): 12 number_key 0512475484
+08-24 11:14:23.616: INFO/log(2390): 13 starred 0
+08-24 11:14:23.616: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.616: INFO/log(2390): 15 name David Stortini
+08-24 11:14:23.616: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.616: INFO/log(2390): 17 notes Concordville Inn - 6104592230 (Stortini/Buchanan wedding rate)
+08-24 11:14:23.616: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.616: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.616: INFO/log(2390): 2 person 257
+08-24 11:14:23.616: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.616: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.616: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.616: INFO/log(2390): 6 label null
+08-24 11:14:23.616: INFO/log(2390): 7 number 4847169608
+08-24 11:14:23.616: INFO/log(2390): 8 type 1
+08-24 11:14:23.616: INFO/log(2390): 9 last_time_contacted 1312128670258
+08-24 11:14:23.624: INFO/log(2390): 10 display_name Matt Ricobono
+08-24 11:14:23.624: INFO/log(2390): 11 _id 1144
+08-24 11:14:23.624: INFO/log(2390): 12 number_key 8069617484
+08-24 11:14:23.624: INFO/log(2390): 13 starred 0
+08-24 11:14:23.624: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.624: INFO/log(2390): 15 name Matt Riccobono
+08-24 11:14:23.624: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.624: INFO/log(2390): 17 notes 
+08-24 11:14:23.624: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.624: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.624: INFO/log(2390): 2 person 299
+08-24 11:14:23.624: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.624: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.624: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.624: INFO/log(2390): 6 label null
+08-24 11:14:23.624: INFO/log(2390): 7 number 4848442947
+08-24 11:14:23.624: INFO/log(2390): 8 type 1
+08-24 11:14:23.624: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.624: INFO/log(2390): 10 display_name John Romano, Jr.
+08-24 11:14:23.624: INFO/log(2390): 11 _id 1439
+08-24 11:14:23.624: INFO/log(2390): 12 number_key 7492448484
+08-24 11:14:23.624: INFO/log(2390): 13 starred 0
+08-24 11:14:23.624: INFO/log(2390): 14 primary_email 2478
+08-24 11:14:23.624: INFO/log(2390): 15 name John Romano Jr
+08-24 11:14:23.624: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.624: INFO/log(2390): 17 notes 
+08-24 11:14:23.624: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.624: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.624: INFO/log(2390): 2 person 287
+08-24 11:14:23.624: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.624: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.624: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.624: INFO/log(2390): 6 label null
+08-24 11:14:23.624: INFO/log(2390): 7 number 5703578404
+08-24 11:14:23.624: INFO/log(2390): 8 type 1
+08-24 11:14:23.624: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.624: INFO/log(2390): 10 display_name Fr. Jack
+08-24 11:14:23.624: INFO/log(2390): 11 _id 1355
+08-24 11:14:23.624: INFO/log(2390): 12 number_key 4048753075
+08-24 11:14:23.624: INFO/log(2390): 13 starred 0
+08-24 11:14:23.624: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.624: INFO/log(2390): 15 name Fr. Jack
+08-24 11:14:23.624: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.624: INFO/log(2390): 17 notes 
+08-24 11:14:23.624: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.624: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.624: INFO/log(2390): 2 person 399
+08-24 11:14:23.624: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.632: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.632: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.632: INFO/log(2390): 6 label null
+08-24 11:14:23.632: INFO/log(2390): 7 number 574-286-7871
+08-24 11:14:23.632: INFO/log(2390): 8 type 1
+08-24 11:14:23.632: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.632: INFO/log(2390): 10 display_name Anthony So
+08-24 11:14:23.632: INFO/log(2390): 11 _id 2790
+08-24 11:14:23.632: INFO/log(2390): 12 number_key 1787682475
+08-24 11:14:23.632: INFO/log(2390): 13 starred 0
+08-24 11:14:23.632: INFO/log(2390): 14 primary_email 2797
+08-24 11:14:23.632: INFO/log(2390): 15 name Anthony So
+08-24 11:14:23.640: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.640: INFO/log(2390): 17 notes 
+08-24 11:14:23.640: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.640: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.640: INFO/log(2390): 2 person 280
+08-24 11:14:23.640: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.640: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.640: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.640: INFO/log(2390): 6 label null
+08-24 11:14:23.640: INFO/log(2390): 7 number 609-870-2568
+08-24 11:14:23.640: INFO/log(2390): 8 type 7
+08-24 11:14:23.640: INFO/log(2390): 9 last_time_contacted 1306443343507
+08-24 11:14:23.640: INFO/log(2390): 10 display_name Josh Forman
+08-24 11:14:23.640: INFO/log(2390): 11 _id 1305
+08-24 11:14:23.640: INFO/log(2390): 12 number_key 8652078906
+08-24 11:14:23.640: INFO/log(2390): 13 starred 0
+08-24 11:14:23.640: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.640: INFO/log(2390): 15 name Josh Forman
+08-24 11:14:23.640: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.640: INFO/log(2390): 17 notes 
+08-24 11:14:23.640: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.640: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.640: INFO/log(2390): 2 person 292
+08-24 11:14:23.640: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.640: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.640: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.640: INFO/log(2390): 6 label null
+08-24 11:14:23.640: INFO/log(2390): 7 number 6096052017
+08-24 11:14:23.640: INFO/log(2390): 8 type 2
+08-24 11:14:23.640: INFO/log(2390): 9 last_time_contacted 1314029722540
+08-24 11:14:23.640: INFO/log(2390): 10 display_name Darrell Thompson
+08-24 11:14:23.640: INFO/log(2390): 11 _id 2978
+08-24 11:14:23.640: INFO/log(2390): 12 number_key 7102506906
+08-24 11:14:23.640: INFO/log(2390): 13 starred 0
+08-24 11:14:23.640: INFO/log(2390): 14 primary_email 4249
+08-24 11:14:23.640: INFO/log(2390): 15 name Darrell Thompson
+08-24 11:14:23.640: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.640: INFO/log(2390): 17 notes 
+08-24 11:14:23.640: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.640: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.640: INFO/log(2390): 2 person 294
+08-24 11:14:23.640: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.640: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.640: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.640: INFO/log(2390): 6 label null
+08-24 11:14:23.640: INFO/log(2390): 7 number 6098655070
+08-24 11:14:23.640: INFO/log(2390): 8 type 2
+08-24 11:14:23.640: INFO/log(2390): 9 last_time_contacted 1311373071841
+08-24 11:14:23.640: INFO/log(2390): 10 display_name Samuel Hamilton
+08-24 11:14:23.640: INFO/log(2390): 11 _id 1404
+08-24 11:14:23.640: INFO/log(2390): 12 number_key 0705568906
+08-24 11:14:23.640: INFO/log(2390): 13 starred 0
+08-24 11:14:23.640: INFO/log(2390): 14 primary_email 1492
+08-24 11:14:23.640: INFO/log(2390): 15 name Samuel Hamilton
+08-24 11:14:23.640: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.640: INFO/log(2390): 17 notes 
+08-24 11:14:23.640: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.640: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.640: INFO/log(2390): 2 person 268
+08-24 11:14:23.640: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.640: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.640: INFO/log(2390): 5 isprimary 1
+08-24 11:14:23.640: INFO/log(2390): 6 label null
+08-24 11:14:23.640: INFO/log(2390): 7 number 610-259-7913
+08-24 11:14:23.640: INFO/log(2390): 8 type 1
+08-24 11:14:23.640: INFO/log(2390): 9 last_time_contacted 1313712415358
+08-24 11:14:23.640: INFO/log(2390): 10 display_name Gpop and Gmom
+08-24 11:14:23.640: INFO/log(2390): 11 _id 2624
+08-24 11:14:23.640: INFO/log(2390): 12 number_key 3197952016
+08-24 11:14:23.640: INFO/log(2390): 13 starred 1
+08-24 11:14:23.640: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.640: INFO/log(2390): 15 name Gpop and Gmom
+08-24 11:14:23.640: INFO/log(2390): 16 primary_phone 2624
+08-24 11:14:23.640: INFO/log(2390): 17 notes 
+08-24 11:14:23.640: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.640: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.640: INFO/log(2390): 2 person 53
+08-24 11:14:23.640: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.640: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.640: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.640: INFO/log(2390): 6 label null
+08-24 11:14:23.640: INFO/log(2390): 7 number 610-322-1275
+08-24 11:14:23.640: INFO/log(2390): 8 type 2
+08-24 11:14:23.640: INFO/log(2390): 9 last_time_contacted 1302478725245
+08-24 11:14:23.640: INFO/log(2390): 10 display_name Ian Hovenkamp
+08-24 11:14:23.640: INFO/log(2390): 11 _id 289
+08-24 11:14:23.640: INFO/log(2390): 12 number_key 5721223016
+08-24 11:14:23.640: INFO/log(2390): 13 starred 0
+08-24 11:14:23.640: INFO/log(2390): 14 primary_email 934
+08-24 11:14:23.640: INFO/log(2390): 15 name Ian Hovenkamp
+08-24 11:14:23.640: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.640: INFO/log(2390): 17 notes 
+08-24 11:14:23.640: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.640: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.640: INFO/log(2390): 2 person 352
+08-24 11:14:23.640: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.640: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.640: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.640: INFO/log(2390): 6 label null
+08-24 11:14:23.640: INFO/log(2390): 7 number 610-322-9748
+08-24 11:14:23.640: INFO/log(2390): 8 type 7
+08-24 11:14:23.640: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.640: INFO/log(2390): 10 display_name Elise Seltzer
+08-24 11:14:23.640: INFO/log(2390): 11 _id 2257
+08-24 11:14:23.640: INFO/log(2390): 12 number_key 8479223016
+08-24 11:14:23.640: INFO/log(2390): 13 starred 0
+08-24 11:14:23.640: INFO/log(2390): 14 primary_email 2254
+08-24 11:14:23.640: INFO/log(2390): 15 name Elise Seltzer
+08-24 11:14:23.640: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.640: INFO/log(2390): 17 notes 
+08-24 11:14:23.640: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.640: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.640: INFO/log(2390): 2 person 426
+08-24 11:14:23.640: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.640: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.640: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.640: INFO/log(2390): 6 label null
+08-24 11:14:23.640: INFO/log(2390): 7 number 610-325-4100
+08-24 11:14:23.640: INFO/log(2390): 8 type 2
+08-24 11:14:23.640: INFO/log(2390): 9 last_time_contacted 1311958708337
+08-24 11:14:23.640: INFO/log(2390): 10 display_name Theresa O'Donnell
+08-24 11:14:23.640: INFO/log(2390): 11 _id 3048
+08-24 11:14:23.640: INFO/log(2390): 12 number_key 0014523016
+08-24 11:14:23.640: INFO/log(2390): 13 starred 0
+08-24 11:14:23.640: INFO/log(2390): 14 primary_email 3045
+08-24 11:14:23.640: INFO/log(2390): 15 name Theresa O'Donnell
+08-24 11:14:23.640: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.640: INFO/log(2390): 17 notes 
+08-24 11:14:23.640: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.640: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.640: INFO/log(2390): 2 person 57
+08-24 11:14:23.640: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.640: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.640: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.640: INFO/log(2390): 6 label null
+08-24 11:14:23.640: INFO/log(2390): 7 number 610-350-6738
+08-24 11:14:23.640: INFO/log(2390): 8 type 2
+08-24 11:14:23.640: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.640: INFO/log(2390): 10 display_name Colleen Rogers
+08-24 11:14:23.640: INFO/log(2390): 11 _id 316
+08-24 11:14:23.640: INFO/log(2390): 12 number_key 8376053016
+08-24 11:14:23.640: INFO/log(2390): 13 starred 0
+08-24 11:14:23.640: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.640: INFO/log(2390): 15 name Colleen Rogers
+08-24 11:14:23.640: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.640: INFO/log(2390): 17 notes 
+08-24 11:14:23.640: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.640: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.640: INFO/log(2390): 2 person 284
+08-24 11:14:23.640: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.640: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.640: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.640: INFO/log(2390): 6 label null
+08-24 11:14:23.640: INFO/log(2390): 7 number 610-389-4127
+08-24 11:14:23.640: INFO/log(2390): 8 type 2
+08-24 11:14:23.640: INFO/log(2390): 9 last_time_contacted 1313529989448
+08-24 11:14:23.640: INFO/log(2390): 10 display_name Kevin Bane
+08-24 11:14:23.640: INFO/log(2390): 11 _id 1501
+08-24 11:14:23.640: INFO/log(2390): 12 number_key 7214983016
+08-24 11:14:23.647: INFO/log(2390): 13 starred 0
+08-24 11:14:23.647: INFO/log(2390): 14 primary_email 1332
+08-24 11:14:23.647: INFO/log(2390): 15 name Kevin Bane
+08-24 11:14:23.647: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.647: INFO/log(2390): 17 notes 
+08-24 11:14:23.647: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.647: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.647: INFO/log(2390): 2 person 237
+08-24 11:14:23.647: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.647: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.647: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.647: INFO/log(2390): 6 label null
+08-24 11:14:23.647: INFO/log(2390): 7 number 610-416-3219
+08-24 11:14:23.647: INFO/log(2390): 8 type 2
+08-24 11:14:23.647: INFO/log(2390): 9 last_time_contacted 1311789756870
+08-24 11:14:23.647: INFO/log(2390): 10 display_name Joe Conley
+08-24 11:14:23.647: INFO/log(2390): 11 _id 2956
+08-24 11:14:23.647: INFO/log(2390): 12 number_key 9123614016
+08-24 11:14:23.647: INFO/log(2390): 13 starred 0
+08-24 11:14:23.647: INFO/log(2390): 14 primary_email 954
+08-24 11:14:23.647: INFO/log(2390): 15 name Joe Conley
+08-24 11:14:23.647: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.647: INFO/log(2390): 17 notes 9010412616
+08-24 11:14:23.647: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.647: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.647: INFO/log(2390): 2 person 39
+08-24 11:14:23.647: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.647: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.647: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.647: INFO/log(2390): 6 label null
+08-24 11:14:23.647: INFO/log(2390): 7 number 610-446-4596
+08-24 11:14:23.647: INFO/log(2390): 8 type 7
+08-24 11:14:23.647: INFO/log(2390): 9 last_time_contacted 1311864429846
+08-24 11:14:23.647: INFO/log(2390): 10 display_name Frank Shannon
+08-24 11:14:23.647: INFO/log(2390): 11 _id 201
+08-24 11:14:23.647: INFO/log(2390): 12 number_key 6954644016
+08-24 11:14:23.647: INFO/log(2390): 13 starred 0
+08-24 11:14:23.647: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.647: INFO/log(2390): 15 name Dr. Frank Shannon
+08-24 11:14:23.647: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.647: INFO/log(2390): 17 notes 
+08-24 11:14:23.647: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.647: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.647: INFO/log(2390): 2 person 56
+08-24 11:14:23.647: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.647: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.647: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.647: INFO/log(2390): 6 label null
+08-24 11:14:23.647: INFO/log(2390): 7 number 610-513-1084
+08-24 11:14:23.655: INFO/log(2390): 8 type 7
+08-24 11:14:23.655: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.655: INFO/log(2390): 10 display_name Lauren Curren
+08-24 11:14:23.655: INFO/log(2390): 11 _id 309
+08-24 11:14:23.655: INFO/log(2390): 12 number_key 4801315016
+08-24 11:14:23.655: INFO/log(2390): 13 starred 0
+08-24 11:14:23.655: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.655: INFO/log(2390): 15 name Lauren Curren
+08-24 11:14:23.655: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.655: INFO/log(2390): 17 notes 
+08-24 11:14:23.655: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.655: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.655: INFO/log(2390): 2 person 43
+08-24 11:14:23.655: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.655: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.655: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.655: INFO/log(2390): 6 label null
+08-24 11:14:23.655: INFO/log(2390): 7 number 610-544-4004
+08-24 11:14:23.655: INFO/log(2390): 8 type 1
+08-24 11:14:23.655: INFO/log(2390): 9 last_time_contacted 1314157374954
+08-24 11:14:23.655: INFO/log(2390): 10 display_name Janine
+08-24 11:14:23.655: INFO/log(2390): 11 _id 2335
+08-24 11:14:23.655: INFO/log(2390): 12 number_key 4004445016
+08-24 11:14:23.655: INFO/log(2390): 13 starred 1
+08-24 11:14:23.655: INFO/log(2390): 14 primary_email 226
+08-24 11:14:23.655: INFO/log(2390): 15 name Janine
+08-24 11:14:23.655: INFO/log(2390): 16 primary_phone 1503
+08-24 11:14:23.655: INFO/log(2390): 17 notes 
+08-24 11:14:23.655: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.655: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.655: INFO/log(2390): 2 person 43
+08-24 11:14:23.655: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.655: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.663: INFO/log(2390): 5 isprimary 1
+08-24 11:14:23.663: INFO/log(2390): 6 label null
+08-24 11:14:23.663: INFO/log(2390): 7 number 610-761-2623
+08-24 11:14:23.663: INFO/log(2390): 8 type 2
+08-24 11:14:23.663: INFO/log(2390): 9 last_time_contacted 1314157374954
+08-24 11:14:23.663: INFO/log(2390): 10 display_name Janine
+08-24 11:14:23.663: INFO/log(2390): 11 _id 1503
+08-24 11:14:23.663: INFO/log(2390): 12 number_key 3262167016
+08-24 11:14:23.663: INFO/log(2390): 13 starred 1
+08-24 11:14:23.663: INFO/log(2390): 14 primary_email 226
+08-24 11:14:23.663: INFO/log(2390): 15 name Janine
+08-24 11:14:23.663: INFO/log(2390): 16 primary_phone 1503
+08-24 11:14:23.663: INFO/log(2390): 17 notes 
+08-24 11:14:23.663: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.663: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.663: INFO/log(2390): 2 person 235
+08-24 11:14:23.663: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.663: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.663: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.663: INFO/log(2390): 6 label null
+08-24 11:14:23.663: INFO/log(2390): 7 number 610-941-6300
+08-24 11:14:23.663: INFO/log(2390): 8 type 3
+08-24 11:14:23.663: INFO/log(2390): 9 last_time_contacted 0
+08-24 11:14:23.663: INFO/log(2390): 10 display_name Kevin McCarthy
+08-24 11:14:23.663: INFO/log(2390): 11 _id 753
+08-24 11:14:23.663: INFO/log(2390): 12 number_key 0036149016
+08-24 11:14:23.663: INFO/log(2390): 13 starred 0
+08-24 11:14:23.663: INFO/log(2390): 14 primary_email 1079
+08-24 11:14:23.663: INFO/log(2390): 15 name Kevin McCarthy
+08-24 11:14:23.663: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.663: INFO/log(2390): 17 notes 
+08-24 11:14:23.663: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.663: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.663: INFO/log(2390): 2 person 426
+08-24 11:14:23.663: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.663: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.663: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.663: INFO/log(2390): 6 label null
+08-24 11:14:23.663: INFO/log(2390): 7 number 610-952-7409
+08-24 11:14:23.663: INFO/log(2390): 8 type 3
+08-24 11:14:23.663: INFO/log(2390): 9 last_time_contacted 1311958708337
+08-24 11:14:23.663: INFO/log(2390): 10 display_name Theresa O'Donnell
+08-24 11:14:23.663: INFO/log(2390): 11 _id 3049
+08-24 11:14:23.663: INFO/log(2390): 12 number_key 9047259016
+08-24 11:14:23.663: INFO/log(2390): 13 starred 0
+08-24 11:14:23.663: INFO/log(2390): 14 primary_email 3045
+08-24 11:14:23.663: INFO/log(2390): 15 name Theresa O'Donnell
+08-24 11:14:23.663: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.663: INFO/log(2390): 17 notes 
+08-24 11:14:23.663: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.663: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.663: INFO/log(2390): 2 person 402
+08-24 11:14:23.663: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.663: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.663: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.663: INFO/log(2390): 6 label null
+08-24 11:14:23.663: INFO/log(2390): 7 number 6102258058
+08-24 11:14:23.663: INFO/log(2390): 8 type 3
+08-24 11:14:23.663: INFO/log(2390): 9 last_time_contacted 1312563329630
+08-24 11:14:23.663: INFO/log(2390): 10 display_name Alison Guard
+08-24 11:14:23.663: INFO/log(2390): 11 _id 3883
+08-24 11:14:23.663: INFO/log(2390): 12 number_key 8508522016
+08-24 11:14:23.663: INFO/log(2390): 13 starred 0
+08-24 11:14:23.663: INFO/log(2390): 14 primary_email 2827
+08-24 11:14:23.663: INFO/log(2390): 15 name Alison Guard
+08-24 11:14:23.663: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.663: INFO/log(2390): 17 notes 
+08-24 11:14:23.663: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.663: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.663: INFO/log(2390): 2 person 350
+08-24 11:14:23.663: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.663: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.663: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.663: INFO/log(2390): 6 label null
+08-24 11:14:23.663: INFO/log(2390): 7 number 6102542218
+08-24 11:14:23.663: INFO/log(2390): 8 type 3
+08-24 11:14:23.663: INFO/log(2390): 9 last_time_contacted 1313845553746
+08-24 11:14:23.663: INFO/log(2390): 10 display_name Terri Conley
+08-24 11:14:23.663: INFO/log(2390): 11 _id 2230
+08-24 11:14:23.663: INFO/log(2390): 12 number_key 8122452016
+08-24 11:14:23.663: INFO/log(2390): 13 starred 1
+08-24 11:14:23.663: INFO/log(2390): 14 primary_email 2281
+08-24 11:14:23.663: INFO/log(2390): 15 name Terri Conley
+08-24 11:14:23.663: INFO/log(2390): 16 primary_phone 2228
+08-24 11:14:23.663: INFO/log(2390): 17 notes 189429178
+08-24 11:14:23.663: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.663: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.663: INFO/log(2390): 2 person 296
+08-24 11:14:23.663: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.663: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.663: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.663: INFO/log(2390): 6 label null
+08-24 11:14:23.663: INFO/log(2390): 7 number 6103298745
+08-24 11:14:23.663: INFO/log(2390): 8 type 1
+08-24 11:14:23.663: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.663: INFO/log(2390): 10 display_name Jess Jordan
+08-24 11:14:23.663: INFO/log(2390): 11 _id 1418
+08-24 11:14:23.663: INFO/log(2390): 12 number_key 5478923016
+08-24 11:14:23.663: INFO/log(2390): 13 starred 0
+08-24 11:14:23.663: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.663: INFO/log(2390): 15 name Jess Jordan
+08-24 11:14:23.663: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.663: INFO/log(2390): 17 notes 
+08-24 11:14:23.663: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.663: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.663: INFO/log(2390): 2 person 293
+08-24 11:14:23.663: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.663: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.663: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.663: INFO/log(2390): 6 label null
+08-24 11:14:23.663: INFO/log(2390): 7 number 6103550116
+08-24 11:14:23.663: INFO/log(2390): 8 type 1
+08-24 11:14:23.663: INFO/log(2390): 9 last_time_contacted 1314046266418
+08-24 11:14:23.663: INFO/log(2390): 10 display_name Home
+08-24 11:14:23.663: INFO/log(2390): 11 _id 1397
+08-24 11:14:23.663: INFO/log(2390): 12 number_key 6110553016
+08-24 11:14:23.663: INFO/log(2390): 13 starred 1
+08-24 11:14:23.663: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.663: INFO/log(2390): 15 name Home
+08-24 11:14:23.663: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.663: INFO/log(2390): 17 notes 
+08-24 11:14:23.663: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.663: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.663: INFO/log(2390): 2 person 261
+08-24 11:14:23.663: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.663: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.663: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.663: INFO/log(2390): 6 label null
+08-24 11:14:23.663: INFO/log(2390): 7 number 6104055074
+08-24 11:14:23.663: INFO/log(2390): 8 type 1
+08-24 11:14:23.663: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.663: INFO/log(2390): 10 display_name Kevin McElwee
+08-24 11:14:23.663: INFO/log(2390): 11 _id 1172
+08-24 11:14:23.663: INFO/log(2390): 12 number_key 4705504016
+08-24 11:14:23.663: INFO/log(2390): 13 starred 0
+08-24 11:14:23.663: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.663: INFO/log(2390): 15 name Kevin McElwee
+08-24 11:14:23.663: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.663: INFO/log(2390): 17 notes 
+08-24 11:14:23.663: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.663: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.663: INFO/log(2390): 2 person 237
+08-24 11:14:23.663: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.663: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.663: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.663: INFO/log(2390): 6 label null
+08-24 11:14:23.663: INFO/log(2390): 7 number 6104072934
+08-24 11:14:23.663: INFO/log(2390): 8 type 3
+08-24 11:14:23.663: INFO/log(2390): 9 last_time_contacted 1311789756870
+08-24 11:14:23.663: INFO/log(2390): 10 display_name Joe Conley
+08-24 11:14:23.663: INFO/log(2390): 11 _id 2955
+08-24 11:14:23.663: INFO/log(2390): 12 number_key 4392704016
+08-24 11:14:23.663: INFO/log(2390): 13 starred 0
+08-24 11:14:23.663: INFO/log(2390): 14 primary_email 954
+08-24 11:14:23.663: INFO/log(2390): 15 name Joe Conley
+08-24 11:14:23.663: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.663: INFO/log(2390): 17 notes 9010412616
+08-24 11:14:23.663: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.663: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.663: INFO/log(2390): 2 person 350
+08-24 11:14:23.663: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.671: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.671: INFO/log(2390): 5 isprimary 1
+08-24 11:14:23.671: INFO/log(2390): 6 label null
+08-24 11:14:23.671: INFO/log(2390): 7 number 6104163211
+08-24 11:14:23.671: INFO/log(2390): 8 type 2
+08-24 11:14:23.671: INFO/log(2390): 9 last_time_contacted 1313845553746
+08-24 11:14:23.671: INFO/log(2390): 10 display_name Terri Conley
+08-24 11:14:23.671: INFO/log(2390): 11 _id 2228
+08-24 11:14:23.671: INFO/log(2390): 12 number_key 1123614016
+08-24 11:14:23.671: INFO/log(2390): 13 starred 1
+08-24 11:14:23.671: INFO/log(2390): 14 primary_email 2281
+08-24 11:14:23.671: INFO/log(2390): 15 name Terri Conley
+08-24 11:14:23.671: INFO/log(2390): 16 primary_phone 2228
+08-24 11:14:23.671: INFO/log(2390): 17 notes 189429178
+08-24 11:14:23.671: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.671: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.671: INFO/log(2390): 2 person 286
+08-24 11:14:23.671: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.671: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.671: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.671: INFO/log(2390): 6 label null
+08-24 11:14:23.671: INFO/log(2390): 7 number 6104163227
+08-24 11:14:23.671: INFO/log(2390): 8 type 1
+08-24 11:14:23.671: INFO/log(2390): 9 last_time_contacted 1313956708466
+08-24 11:14:23.671: INFO/log(2390): 10 display_name Megan Conley
+08-24 11:14:23.671: INFO/log(2390): 11 _id 1348
+08-24 11:14:23.671: INFO/log(2390): 12 number_key 7223614016
+08-24 11:14:23.671: INFO/log(2390): 13 starred 1
+08-24 11:14:23.671: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.671: INFO/log(2390): 15 name Megan Conley
+08-24 11:14:23.671: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.671: INFO/log(2390): 17 notes 
+08-24 11:14:23.671: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.671: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.671: INFO/log(2390): 2 person 350
+08-24 11:14:23.671: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.671: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.671: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.671: INFO/log(2390): 6 label null
+08-24 11:14:23.671: INFO/log(2390): 7 number 6104207593
+08-24 11:14:23.671: INFO/log(2390): 8 type 7
+08-24 11:14:23.671: INFO/log(2390): 9 last_time_contacted 1313845553746
+08-24 11:14:23.671: INFO/log(2390): 10 display_name Terri Conley
+08-24 11:14:23.671: INFO/log(2390): 11 _id 2229
+08-24 11:14:23.671: INFO/log(2390): 12 number_key 3957024016
+08-24 11:14:23.671: INFO/log(2390): 13 starred 1
+08-24 11:14:23.671: INFO/log(2390): 14 primary_email 2281
+08-24 11:14:23.671: INFO/log(2390): 15 name Terri Conley
+08-24 11:14:23.671: INFO/log(2390): 16 primary_phone 2228
+08-24 11:14:23.679: INFO/log(2390): 17 notes 189429178
+08-24 11:14:23.679: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.679: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.679: INFO/log(2390): 2 person 349
+08-24 11:14:23.679: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.679: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.679: INFO/log(2390): 5 isprimary 1
+08-24 11:14:23.679: INFO/log(2390): 6 label null
+08-24 11:14:23.679: INFO/log(2390): 7 number 6105298710
+08-24 11:14:23.679: INFO/log(2390): 8 type 2
+08-24 11:14:23.679: INFO/log(2390): 9 last_time_contacted 1313454445697
+08-24 11:14:23.679: INFO/log(2390): 10 display_name Jamie Gambino
+08-24 11:14:23.679: INFO/log(2390): 11 _id 2209
+08-24 11:14:23.679: INFO/log(2390): 12 number_key 0178925016
+08-24 11:14:23.679: INFO/log(2390): 13 starred 0
+08-24 11:14:23.679: INFO/log(2390): 14 primary_email 2203
+08-24 11:14:23.679: INFO/log(2390): 15 name Jamie Gambino
+08-24 11:14:23.679: INFO/log(2390): 16 primary_phone 2209
+08-24 11:14:23.679: INFO/log(2390): 17 notes 
+08-24 11:14:23.679: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.679: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.679: INFO/log(2390): 2 person 349
+08-24 11:14:23.679: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.679: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.679: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.679: INFO/log(2390): 6 label null
+08-24 11:14:23.679: INFO/log(2390): 7 number 6105430195
+08-24 11:14:23.679: INFO/log(2390): 8 type 1
+08-24 11:14:23.679: INFO/log(2390): 9 last_time_contacted 1313454445697
+08-24 11:14:23.679: INFO/log(2390): 10 display_name Jamie Gambino
+08-24 11:14:23.679: INFO/log(2390): 11 _id 2208
+08-24 11:14:23.679: INFO/log(2390): 12 number_key 5910345016
+08-24 11:14:23.679: INFO/log(2390): 13 starred 0
+08-24 11:14:23.679: INFO/log(2390): 14 primary_email 2203
+08-24 11:14:23.679: INFO/log(2390): 15 name Jamie Gambino
+08-24 11:14:23.679: INFO/log(2390): 16 primary_phone 2209
+08-24 11:14:23.679: INFO/log(2390): 17 notes 
+08-24 11:14:23.679: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.679: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.679: INFO/log(2390): 2 person 346
+08-24 11:14:23.679: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.679: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.679: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.679: INFO/log(2390): 6 label null
+08-24 11:14:23.679: INFO/log(2390): 7 number 6105746910
+08-24 11:14:23.679: INFO/log(2390): 8 type 2
+08-24 11:14:23.679: INFO/log(2390): 9 last_time_contacted 1311812340342
+08-24 11:14:23.679: INFO/log(2390): 10 display_name Kevin Capuzzi
+08-24 11:14:23.679: INFO/log(2390): 11 _id 2167
+08-24 11:14:23.679: INFO/log(2390): 12 number_key 0196475016
+08-24 11:14:23.679: INFO/log(2390): 13 starred 0
+08-24 11:14:23.679: INFO/log(2390): 14 primary_email 3007
+08-24 11:14:23.679: INFO/log(2390): 15 name Kevin Capuzzi
+08-24 11:14:23.679: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.679: INFO/log(2390): 17 notes 
+08-24 11:14:23.679: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.679: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.679: INFO/log(2390): 2 person 267
+08-24 11:14:23.679: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.679: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.679: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.679: INFO/log(2390): 6 label null
+08-24 11:14:23.679: INFO/log(2390): 7 number 6107160962
+08-24 11:14:23.679: INFO/log(2390): 8 type 1
+08-24 11:14:23.679: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.679: INFO/log(2390): 10 display_name Michael Foster
+08-24 11:14:23.679: INFO/log(2390): 11 _id 1214
+08-24 11:14:23.679: INFO/log(2390): 12 number_key 2690617016
+08-24 11:14:23.679: INFO/log(2390): 13 starred 0
+08-24 11:14:23.679: INFO/log(2390): 14 primary_email 1488
+08-24 11:14:23.679: INFO/log(2390): 15 name Michael Foster
+08-24 11:14:23.679: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.679: INFO/log(2390): 17 notes 
+08-24 11:14:23.679: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.679: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.679: INFO/log(2390): 2 person 282
+08-24 11:14:23.679: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.679: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.679: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.679: INFO/log(2390): 6 label null
+08-24 11:14:23.679: INFO/log(2390): 7 number 6107169377
+08-24 11:14:23.679: INFO/log(2390): 8 type 1
+08-24 11:14:23.679: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.679: INFO/log(2390): 10 display_name Colleen Raftery
+08-24 11:14:23.679: INFO/log(2390): 11 _id 1319
+08-24 11:14:23.679: INFO/log(2390): 12 number_key 7739617016
+08-24 11:14:23.679: INFO/log(2390): 13 starred 0
+08-24 11:14:23.679: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.687: INFO/log(2390): 15 name Colleen Raftery
+08-24 11:14:23.687: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.687: INFO/log(2390): 17 notes 
+08-24 11:14:23.687: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.687: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.687: INFO/log(2390): 2 person 271
+08-24 11:14:23.687: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.687: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.687: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.687: INFO/log(2390): 6 label null
+08-24 11:14:23.687: INFO/log(2390): 7 number 6107311296
+08-24 11:14:23.687: INFO/log(2390): 8 type 1
+08-24 11:14:23.687: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.687: INFO/log(2390): 10 display_name John Landry
+08-24 11:14:23.687: INFO/log(2390): 11 _id 1242
+08-24 11:14:23.687: INFO/log(2390): 12 number_key 6921137016
+08-24 11:14:23.687: INFO/log(2390): 13 starred 0
+08-24 11:14:23.687: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.687: INFO/log(2390): 15 name John Landry
+08-24 11:14:23.687: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.687: INFO/log(2390): 17 notes 
+08-24 11:14:23.687: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.687: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.687: INFO/log(2390): 2 person 281
+08-24 11:14:23.687: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.687: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.687: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.687: INFO/log(2390): 6 label null
+08-24 11:14:23.687: INFO/log(2390): 7 number 6107392385
+08-24 11:14:23.687: INFO/log(2390): 8 type 1
+08-24 11:14:23.687: INFO/log(2390): 9 last_time_contacted 1304814264556
+08-24 11:14:23.687: INFO/log(2390): 10 display_name Matt Hayes
+08-24 11:14:23.687: INFO/log(2390): 11 _id 1312
+08-24 11:14:23.687: INFO/log(2390): 12 number_key 5832937016
+08-24 11:14:23.687: INFO/log(2390): 13 starred 0
+08-24 11:14:23.687: INFO/log(2390): 14 primary_email 1535
+08-24 11:14:23.687: INFO/log(2390): 15 name Matt Hayes
+08-24 11:14:23.687: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.687: INFO/log(2390): 17 notes 
+08-24 11:14:23.687: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.687: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.687: INFO/log(2390): 2 person 354
+08-24 11:14:23.687: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.687: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.687: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.687: INFO/log(2390): 6 label null
+08-24 11:14:23.694: INFO/log(2390): 7 number 6107450422
+08-24 11:14:23.694: INFO/log(2390): 8 type 1
+08-24 11:14:23.694: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.694: INFO/log(2390): 10 display_name Christian Alsis
+08-24 11:14:23.694: INFO/log(2390): 11 _id 2279
+08-24 11:14:23.694: INFO/log(2390): 12 number_key 2240547016
+08-24 11:14:23.694: INFO/log(2390): 13 starred 0
+08-24 11:14:23.694: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.694: INFO/log(2390): 15 name Christian Alsis
+08-24 11:14:23.694: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.694: INFO/log(2390): 17 notes 
+08-24 11:14:23.694: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.694: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.694: INFO/log(2390): 2 person 536
+08-24 11:14:23.694: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.694: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.694: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.694: INFO/log(2390): 6 label null
+08-24 11:14:23.694: INFO/log(2390): 7 number 6107612624
+08-24 11:14:23.694: INFO/log(2390): 8 type 2
+08-24 11:14:23.694: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.694: INFO/log(2390): 10 display_name Pat Rogers
+08-24 11:14:23.694: INFO/log(2390): 11 _id 3931
+08-24 11:14:23.694: INFO/log(2390): 12 number_key 4262167016
+08-24 11:14:23.694: INFO/log(2390): 13 starred 0
+08-24 11:14:23.694: INFO/log(2390): 14 primary_email 3929
+08-24 11:14:23.694: INFO/log(2390): 15 name Pat Rogers
+08-24 11:14:23.694: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.694: INFO/log(2390): 17 notes 
+08-24 11:14:23.694: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.694: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.694: INFO/log(2390): 2 person 388
+08-24 11:14:23.694: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.694: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.694: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.694: INFO/log(2390): 6 label null
+08-24 11:14:23.694: INFO/log(2390): 7 number 6108831499
+08-24 11:14:23.694: INFO/log(2390): 8 type 2
+08-24 11:14:23.694: INFO/log(2390): 9 last_time_contacted 1313709150400
+08-24 11:14:23.694: INFO/log(2390): 10 display_name Jeannie Rogers
+08-24 11:14:23.694: INFO/log(2390): 11 _id 2597
+08-24 11:14:23.694: INFO/log(2390): 12 number_key 9941388016
+08-24 11:14:23.694: INFO/log(2390): 13 starred 0
+08-24 11:14:23.702: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.702: INFO/log(2390): 15 name Jeannie Rogers
+08-24 11:14:23.702: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.702: INFO/log(2390): 17 notes 
+08-24 11:14:23.702: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.702: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.702: INFO/log(2390): 2 person 273
+08-24 11:14:23.702: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.702: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.702: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.702: INFO/log(2390): 6 label null
+08-24 11:14:23.702: INFO/log(2390): 7 number 630-730-4528
+08-24 11:14:23.702: INFO/log(2390): 8 type 2
+08-24 11:14:23.702: INFO/log(2390): 9 last_time_contacted 1309738567432
+08-24 11:14:23.702: INFO/log(2390): 10 display_name Paul Jankauskas
+08-24 11:14:23.702: INFO/log(2390): 11 _id 1256
+08-24 11:14:23.702: INFO/log(2390): 12 number_key 8254037036
+08-24 11:14:23.702: INFO/log(2390): 13 starred 0
+08-24 11:14:23.702: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.702: INFO/log(2390): 15 name Paul Jankauskas
+08-24 11:14:23.702: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.702: INFO/log(2390): 17 notes 
+08-24 11:14:23.702: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.702: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.702: INFO/log(2390): 2 person 273
+08-24 11:14:23.702: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.702: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.702: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.702: INFO/log(2390): 6 label null
+08-24 11:14:23.702: INFO/log(2390): 7 number 630-922-5889
+08-24 11:14:23.702: INFO/log(2390): 8 type 1
+08-24 11:14:23.702: INFO/log(2390): 9 last_time_contacted 1309738567432
+08-24 11:14:23.702: INFO/log(2390): 10 display_name Paul Jankauskas
+08-24 11:14:23.702: INFO/log(2390): 11 _id 2745
+08-24 11:14:23.702: INFO/log(2390): 12 number_key 9885229036
+08-24 11:14:23.702: INFO/log(2390): 13 starred 0
+08-24 11:14:23.702: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.702: INFO/log(2390): 15 name Paul Jankauskas
+08-24 11:14:23.702: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.702: INFO/log(2390): 17 notes 
+08-24 11:14:23.702: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.702: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.702: INFO/log(2390): 2 person 384
+08-24 11:14:23.702: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.702: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.702: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.702: INFO/log(2390): 6 label null
+08-24 11:14:23.702: INFO/log(2390): 7 number 6308542967
+08-24 11:14:23.702: INFO/log(2390): 8 type 2
+08-24 11:14:23.702: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.702: INFO/log(2390): 10 display_name Carter Jankauskas
+08-24 11:14:23.702: INFO/log(2390): 11 _id 2559
+08-24 11:14:23.702: INFO/log(2390): 12 number_key 7692458036
+08-24 11:14:23.702: INFO/log(2390): 13 starred 0
+08-24 11:14:23.702: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.702: INFO/log(2390): 15 name Carter Jankauskas
+08-24 11:14:23.702: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.702: INFO/log(2390): 17 notes 
+08-24 11:14:23.702: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.702: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.702: INFO/log(2390): 2 person 297
+08-24 11:14:23.702: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.702: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.702: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.702: INFO/log(2390): 6 label null
+08-24 11:14:23.702: INFO/log(2390): 7 number 631-559-5357
+08-24 11:14:23.702: INFO/log(2390): 8 type 2
+08-24 11:14:23.702: INFO/log(2390): 9 last_time_contacted 1309716954621
+08-24 11:14:23.702: INFO/log(2390): 10 display_name Brice Beach
+08-24 11:14:23.702: INFO/log(2390): 11 _id 1425
+08-24 11:14:23.702: INFO/log(2390): 12 number_key 7535955136
+08-24 11:14:23.702: INFO/log(2390): 13 starred 0
+08-24 11:14:23.702: INFO/log(2390): 14 primary_email 1496
+08-24 11:14:23.702: INFO/log(2390): 15 name Brice Beach
+08-24 11:14:23.702: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.702: INFO/log(2390): 17 notes 
+08-24 11:14:23.702: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.702: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.702: INFO/log(2390): 2 person 348
+08-24 11:14:23.702: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.702: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.702: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.702: INFO/log(2390): 6 label null
+08-24 11:14:23.702: INFO/log(2390): 7 number 7326476347
+08-24 11:14:23.702: INFO/log(2390): 8 type 1
+08-24 11:14:23.702: INFO/log(2390): 9 last_time_contacted 1313248906289
+08-24 11:14:23.702: INFO/log(2390): 10 display_name Michael Paz
+08-24 11:14:23.702: INFO/log(2390): 11 _id 2195
+08-24 11:14:23.702: INFO/log(2390): 12 number_key 7436746237
+08-24 11:14:23.702: INFO/log(2390): 13 starred 0
+08-24 11:14:23.702: INFO/log(2390): 14 primary_email 2191
+08-24 11:14:23.702: INFO/log(2390): 15 name Michael Paz
+08-24 11:14:23.702: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.702: INFO/log(2390): 17 notes Apt. 1413
+08-24 11:14:23.702: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.702: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.702: INFO/log(2390): 2 person 347
+08-24 11:14:23.702: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.702: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.702: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.702: INFO/log(2390): 6 label null
+08-24 11:14:23.702: INFO/log(2390): 7 number 7326709516
+08-24 11:14:23.702: INFO/log(2390): 8 type 1
+08-24 11:14:23.702: INFO/log(2390): 9 last_time_contacted 1313248906289
+08-24 11:14:23.702: INFO/log(2390): 10 display_name Charlie Tacopino
+08-24 11:14:23.702: INFO/log(2390): 11 _id 2182
+08-24 11:14:23.710: INFO/log(2390): 12 number_key 6159076237
+08-24 11:14:23.710: INFO/log(2390): 13 starred 0
+08-24 11:14:23.710: INFO/log(2390): 14 primary_email 2177
+08-24 11:14:23.710: INFO/log(2390): 15 name Charlie Tacopino
+08-24 11:14:23.710: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.710: INFO/log(2390): 17 notes 
+08-24 11:14:23.710: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.710: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.710: INFO/log(2390): 2 person 301
+08-24 11:14:23.710: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.710: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.710: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.710: INFO/log(2390): 6 label null
+08-24 11:14:23.710: INFO/log(2390): 7 number 8145770606
+08-24 11:14:23.710: INFO/log(2390): 8 type 1
+08-24 11:14:23.710: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.710: INFO/log(2390): 10 display_name Eric Gilham
+08-24 11:14:23.710: INFO/log(2390): 11 _id 1453
+08-24 11:14:23.710: INFO/log(2390): 12 number_key 6060775418
+08-24 11:14:23.710: INFO/log(2390): 13 starred 0
+08-24 11:14:23.710: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.710: INFO/log(2390): 15 name Eric Gilham
+08-24 11:14:23.710: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.710: INFO/log(2390): 17 notes 
+08-24 11:14:23.710: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.710: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.710: INFO/log(2390): 2 person 351
+08-24 11:14:23.710: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.710: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.710: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.710: INFO/log(2390): 6 label null
+08-24 11:14:23.710: INFO/log(2390): 7 number 8453253803
+08-24 11:14:23.710: INFO/log(2390): 8 type 1
+08-24 11:14:23.710: INFO/log(2390): 9 last_time_contacted 1309716954621
+08-24 11:14:23.710: INFO/log(2390): 10 display_name Dan Neenan
+08-24 11:14:23.710: INFO/log(2390): 11 _id 2247
+08-24 11:14:23.710: INFO/log(2390): 12 number_key 3083523548
+08-24 11:14:23.710: INFO/log(2390): 13 starred 0
+08-24 11:14:23.718: INFO/log(2390): 14 primary_email 2243
+08-24 11:14:23.718: INFO/log(2390): 15 name Dan Neenan
+08-24 11:14:23.718: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.718: INFO/log(2390): 17 notes 
+08-24 11:14:23.718: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.718: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.718: INFO/log(2390): 2 person 288
+08-24 11:14:23.718: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.718: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.718: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.718: INFO/log(2390): 6 label null
+08-24 11:14:23.718: INFO/log(2390): 7 number 9177218050
+08-24 11:14:23.718: INFO/log(2390): 8 type 1
+08-24 11:14:23.718: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.718: INFO/log(2390): 10 display_name Scott Riehs
+08-24 11:14:23.718: INFO/log(2390): 11 _id 1362
+08-24 11:14:23.718: INFO/log(2390): 12 number_key 0508127719
+08-24 11:14:23.718: INFO/log(2390): 13 starred 0
+08-24 11:14:23.718: INFO/log(2390): 14 primary_email null
+08-24 11:14:23.718: INFO/log(2390): 15 name Scott Riehs
+08-24 11:14:23.718: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.718: INFO/log(2390): 17 notes 
+08-24 11:14:23.718: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:23.718: INFO/log(2390): 1 custom_ringtone null
+08-24 11:14:23.718: INFO/log(2390): 2 person 19
+08-24 11:14:23.718: INFO/log(2390): 3 primary_organization null
+08-24 11:14:23.718: INFO/log(2390): 4 phonetic_name 
+08-24 11:14:23.718: INFO/log(2390): 5 isprimary 0
+08-24 11:14:23.718: INFO/log(2390): 6 label null
+08-24 11:14:23.718: INFO/log(2390): 7 number 9492902010
+08-24 11:14:23.718: INFO/log(2390): 8 type 1
+08-24 11:14:23.718: INFO/log(2390): 9 last_time_contacted null
+08-24 11:14:23.718: INFO/log(2390): 10 display_name Brett Moore
+08-24 11:14:23.718: INFO/log(2390): 11 _id 1487
+08-24 11:14:23.718: INFO/log(2390): 12 number_key 0102092949
+08-24 11:14:23.718: INFO/log(2390): 13 starred 0
+08-24 11:14:23.718: INFO/log(2390): 14 primary_email 78
+08-24 11:14:23.718: INFO/log(2390): 15 name Brett Moore
+08-24 11:14:23.718: INFO/log(2390): 16 primary_phone null
+08-24 11:14:23.718: INFO/log(2390): 17 notes 
+08-24 11:14:23.718: INFO/log(2390): 18 send_to_voicemail 0
+08-24 11:14:34.865: INFO/RealTimeChat(1520): Sending ping to bunch

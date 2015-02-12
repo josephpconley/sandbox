@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="nfl">
+
+	<resultMap class="Offense" id="offenseResultMap">
+		<result property="gameId" column="team_id" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="teamCode" column="team_code" javaType="string"
+			jdbcType="VARCHAR"/>			
+		<result property="playerId" column="player_id" javaType="string"
+			jdbcType="VARCHAR"/>			
+		<result property="passCmp" column="pass_cmp" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="passAtt" column="pass_att" javaType="int"
+			jdbcType="INTEGER"/>					
+		<result property="passYds" column="pass_yds" javaType="int"
+			jdbcType="INTEGER"/>				
+		<result property="ints" column="ints" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="longPass" column="long_pass" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="rushAtt" column="rush_att" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="rushYds" column="rush_yds" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="longRush" column="long_rush" javaType="int"
+			jdbcType="INTEGER"/>		
+		<result property="receptions" column="receptions" javaType="int"
+			jdbcType="INTEGER"/>				
+		<result property="recYds" column="rec_yds" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="recTds" column="rec_tds" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="longRec" column="long_rec" javaType="int"
+			jdbcType="INTEGER"/>			
+	</resultMap>
+	
+	<insert id="insertOffense" parameterClass="Offense">
+		INSERT INTO nfl.offense(
+			game_id,
+			player_id,
+			team_code,
+			pass_cmp,
+			pass_att,
+			pass_yds,
+			pass_tds,
+			ints,
+			long_pass,
+			rush_att,
+			rush_yds,
+			rush_tds,
+			long_rush,
+			receptions,
+			rec_yds,
+			rec_tds,
+			long_rec)
+		VALUES(
+			#gameId#,
+			#playerId#,
+			#teamCode#,
+			#passCmp#,
+			#passAtt#,
+			#passYds#,
+			#passTds#,
+			#ints#,
+			#longPass#,
+			#rushAtt#,
+			#rushYds#,
+			#rushTds#,
+			#longRush#,
+			#receptions#,
+			#recYds#,
+			#recTds#,
+			#longRec#)
+	</insert>
+</sqlMap>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hola Chulo!</string>
+    <string name="app_name">WhatUpAndroid</string>
+    <string name="new_game">New Game</string>
+    <string name="quit">Quit</string>
+    <string name="hobbit_prompt">Choose a hobbit!</string>
+    <string-array name="hobbit_array">
+    	<item>Frodo</item>
+    	<item>Samwise</item>
+    	<item>Peregrin</item>
+    	<item>Meriaodic</item>
+    </string-array>
+</resources>

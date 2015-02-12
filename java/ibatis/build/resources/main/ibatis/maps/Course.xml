@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="golf">
+
+	<resultMap class="Course" id="courseResultMap">
+		<result property="courseId" column="course_id" javaType="int"
+			jdbcType="INTEGER"/>	
+		<result property="courseName" column="course_name" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="par" column="par" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="rating" column="rating" javaType="double"
+			jdbcType="DOUBLE"/>
+		<result property="slope" column="slope" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="tees" column="tees" javaType="string"
+			jdbcType="VARCHAR"/>
+	</resultMap>
+
+	<select id="getCourseById" parameterClass="int" resultClass="Course" resultMap="courseResultMap">
+		SELECT *
+		FROM golf.courses
+		WHERE course_id = #courseId#
+	</select>
+	
+	<select id="getCourses" parameterClass="string" resultClass="Course" resultMap="courseResultMap">
+		SELECT *
+		FROM golf.courses
+		WHERE UPPER(course_name) LIKE UPPER(#value# || '%')
+	</select>
+	
+	<select id="getCourseId" resultClass="int">
+		SELECT course_id
+		FROM golf.courses
+		WHERE course_name = #courseName#
+	</select>
+	
+	<insert id="insertCourse" parameterClass="Course">
+		INSERT into golf.courses (course_name,par,rating,slope,tees)
+		 VALUES (#courseName#,#par#,#rating#,#slope#,#tees#)
+	</insert>
+</sqlMap>

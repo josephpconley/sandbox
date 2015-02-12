@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="nfl">
+
+	<resultMap class="Team" id="teamResultMap">
+		<result property="teamId" column="team_id" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="teamCode" column="team_code" javaType="string"
+			jdbcType="VARCHAR"/>			
+		<result property="teamCity" column="team_city" javaType="string"
+			jdbcType="VARCHAR"/>			
+		<result property="teamNickname" column="team_nickname" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="division" column="division" javaType="string"
+			jdbcType="VARCHAR"/>			
+	</resultMap>
+	
+	<select id="getTeamByCode" parameterClass="string"
+					resultClass="Team" resultMap="teamResultMap">
+		SELECT * 
+		FROM nfl.teams
+		WHERE team_code = #teamCode#
+	</select>
+	
+	<select id="getTeamByName" parameterClass="hashmap"
+					resultClass="Team" resultMap="teamResultMap">
+		SELECT *
+		FROM nfl.teams
+		WHERE UPPER(team_city) LIKE UPPER(#teamCity#)
+			AND	UPPER(team_nickname) LIKE UPPER(#teamNickname#)
+	</select>
+</sqlMap>

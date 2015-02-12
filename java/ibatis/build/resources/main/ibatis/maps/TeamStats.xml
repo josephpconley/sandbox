@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="nfl">
+
+	<resultMap class="TeamStats" id="teamStatsResultMap">
+		<result property="gameId" column="team_id" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="teamCode" column="team_code" javaType="string"
+			jdbcType="VARCHAR"/>			
+		<result property="firstDowns" column="first_downs" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="fumblesLost" column="fumbles_lost" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="penalties" column="penalties" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="penaltyYds" column="penalty_yds" javaType="int"
+			jdbcType="INTEGER"/>			
+	</resultMap>
+	
+	<select id="getTeamById" parameterClass="int"
+				resultClass="TeamStats" resultMap="teamStatsResultMap">
+		SELECT * 
+		FROM nfl.team_stats
+		WHERE game_id = #gameId#
+	</select>
+
+	<insert id="insertStats" parameterClass="TeamStats">
+		INSERT INTO nfl.team_stats(
+			game_id,
+			team_code,
+			first_downs,
+			fumbles_lost,
+			penalties,
+			penalty_yds)
+		VALUES(
+			#gameId#,
+			#teamCode#,
+			#firstDowns#,
+			#fumblesLost#,
+			#penalties#,
+			#penaltyYds#)
+	</insert>
+</sqlMap>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="nfl">
+
+	<resultMap class="Defense" id="defenseResultMap">
+		<result property="gameId" column="team_id" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="teamCode" column="team_code" javaType="string"
+			jdbcType="VARCHAR"/>			
+		<result property="playerId" column="player_id" javaType="string"
+			jdbcType="VARCHAR2"/>			
+		<result property="sacks" column="sacks" javaType="double"
+			jdbcType="DOUBLE"/>
+		<result property="ints" column="ints" javaType="int"
+			jdbcType="INTEGER"/>					
+		<result property="intYds" column="int_yds" javaType="int"
+			jdbcType="INTEGER"/>				
+		<result property="intTds" column="int_tds" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="longIntYds" column="longIntYds" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="fumbRec" column="fumb_rec" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="fumbYds" column="fumbs_yds" javaType="int"
+			jdbcType="INTEGER"/>
+		<result property="fumbTds" column="fumbs_tds" javaType="int"
+			jdbcType="INTEGER"/>									
+		<result property="kickRet" column="kick_ret" javaType="int"
+			jdbcType="INTEGER"/>		
+		<result property="retYds" column="ret_yds" javaType="int"
+			jdbcType="INTEGER"/>				
+		<result property="retTds" column="ret_tds" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="longRet" column="long_ret" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="puntRet" column="punt_ret" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="puntYds" column="punt_yds" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="puntTds" column="punt_tds" javaType="int"
+			jdbcType="INTEGER"/>			
+		<result property="longPunt" column="long_punt" javaType="int"
+			jdbcType="INTEGER"/>						
+	</resultMap>
+	
+	<insert id="insertDefense" parameterClass="Defense">
+		INSERT INTO nfl.defense(
+			game_id,
+			player_id,
+			team_code,
+			sacks,
+			ints,
+			int_yds,
+			int_tds,
+			long_int_yds,
+			fumb_rec,
+			fumb_yds,
+			fumb_tds,
+			kick_ret,
+			ret_yds,
+			ret_tds,
+			long_ret,
+			punt_ret,
+			punt_yds,
+			punt_tds,
+			long_punt)
+		VALUES(
+			#gameId#,
+			#playerId#,
+			#teamCode#,
+			#sacks#,
+			#ints#,
+			#intYds#,
+			#intTds#,
+			#longIntYds#,
+			#fumbRec#,
+			#fumbYds#,
+			#fumbTds#,
+			#kickRet#,
+			#retYds#,
+			#retTds#,
+			#longRet#,
+			#puntRet#,
+			#puntYds#,
+			#puntTds#,
+			#longPunt#)
+	</insert>
+	
+</sqlMap>

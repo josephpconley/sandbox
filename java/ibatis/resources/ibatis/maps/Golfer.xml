@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="golf">
+
+	<resultMap class="Golfer" id="golferResultMap">
+		<result property="username" column="username" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="name" column="name" javaType="string"
+			jdbcType="VARCHAR"/>			
+		<result property="courseName" column="course_name" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="handicap" column="handicap" javaType="double"
+			jdbcType="DOUBLE"/>
+		<result property="bday" column="bday" javaType="java.util.Date"
+			jdbcType="DATE"/>
+		<result property="emailAddress" column="email_address" javaType="string"
+			jdbcType="VARCHAR"/>
+		<result property="password" column="password" javaType="string"
+			jdbcType="VARCHAR"/>
+	</resultMap>
+	
+	<select id="getValidGolfer" parameterClass="hashmap" resultClass="Golfer" resultMap="golferResultMap">
+		SELECT * FROM golf.golfers
+		WHERE username=#username#
+		AND password=#password#
+	</select>
+	
+	<select id="getGolfer" parameterClass="string" resultClass="Golfer" resultMap="golferResultMap">
+		SELECT * FROM golf.golfers
+		WHERE username=#username#
+	</select>
+</sqlMap>

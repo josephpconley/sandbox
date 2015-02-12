@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="../" default="build" name="Jolty">
+  <!-- Import our build properties -->   
+    <property file="build/build.properties"/>
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.5"/>
+    <property name="source" value="1.5"/>
+
+	<target name="build">
+	
+	        	<delete>
+		   <fileset dir="${basedir}">
+		      <include name="*.war"/>
+		   </fileset>
+		</delete>
+        <!-- Invoke the war task -->   
+        <war warfile="${ant.project.name}.war"
+		needxmlfile="false">
+            <!-- Include any files specified by the war.files patternset into the root
+                 of the web archive. -->
+            <fileset dir="${basedir}"/>                 
+        </war>
+	<copy file="${ant.project.name}.war" todir="C:\temp"/>
+	</target>
+
+<!-- ============================================================== -->
+<!-- Tomcat tasks - remove these if you don't have Tomcat installed -->
+<!-- ============================================================== -->
+
+    <path id="catalina-ant-classpath">
+        <!-- We need the Catalina jars for Tomcat -->
+        <!--  * for other app servers - check the docs -->
+        <fileset dir="${appserver.lib}">
+            <include name="catalina-ant.jar"/>
+        </fileset>
+    </path>
+
+    <taskdef name="install" classname="org.apache.catalina.ant.InstallTask">
+        <classpath refid="catalina-ant-classpath"/>
+    </taskdef>
+    <taskdef name="reload" classname="org.apache.catalina.ant.ReloadTask">
+        <classpath refid="catalina-ant-classpath"/>
+    </taskdef>
+    <taskdef name="list" classname="org.apache.catalina.ant.ListTask">
+        <classpath refid="catalina-ant-classpath"/>
+    </taskdef>
+    <taskdef name="start" classname="org.apache.catalina.ant.StartTask">
+        <classpath refid="catalina-ant-classpath"/>
+    </taskdef>
+    <taskdef name="stop" classname="org.apache.catalina.ant.StopTask">
+        <classpath refid="catalina-ant-classpath"/>
+    </taskdef>
+    <taskdef name="deploy" classname="org.apache.catalina.ant.DeployTask">
+        <classpath refid="catalina-ant-classpath"/>
+    </taskdef>
+    <taskdef name="undeploy" classname="org.apache.catalina.ant.UndeployTask">
+        <classpath refid="catalina-ant-classpath"/>
+    </taskdef>
+
+
+
+    <target name="install" description="Install application in Tomcat">
+        <install url="${tomcat.manager.url}"
+                 username="${tomcat.manager.username}"
+                 password="${tomcat.manager.password}"
+                 path="/Jolty"
+                 war="Jolty"/>
+    </target>
+
+    <target name="reload" description="Reload application in Tomcat">
+        <reload url="${tomcat.manager.url}"
+                 username="${tomcat.manager.username}"
+                 password="${tomcat.manager.password}"
+                 path="/Jolty"/>
+    </target>
+    <target name="remove"  description="Remove application in Tomcat">
+	<undeploy url="${tomcat.manager.url}"
+			username="${tomcat.manager.username}"
+                 	password="${tomcat.manager.password}"
+                  path="/Jolty"
+  			logerror="true"/>
+</target>
+
+    <target name="start" description="Start Tomcat application">
+        <start url="${tomcat.manager.url}"
+                 username="${tomcat.manager.username}"
+                 password="${tomcat.manager.password}"
+                 path="/Jolty"/>
+    </target>
+
+    <target name="stop" description="Stop Tomcat application">
+        <stop url="${tomcat.manager.url}"
+                 username="${tomcat.manager.username}"
+                 password="${tomcat.manager.password}"
+                 path="/Jolty"/>
+    </target>
+
+    <target name="list" description="List Tomcat applications">
+        <list url="${tomcat.manager.url}"
+                 username="${tomcat.manager.username}"
+                 password="${tomcat.manager.password}"/>
+    </target>
+
+    <target name="deploy" description="Deploy Tomcat application">
+        <deploy url="${tomcat.manager.url}"
+			username="${tomcat.manager.username}"
+                 	password="${tomcat.manager.password}"
+                  war="C:\temp\Jolty.war"
+                  path="/Jolty"	/>
+	</target>
+	
+	<target name="undeploy" description="Undeploy Tomcat application">
+        <undeploy url="${tomcat.manager.url}"
+			username="${tomcat.manager.username}"
+                 	password="${tomcat.manager.password}"
+                  path="/Jolty"
+  			/>
+	</target>
+
+	<target name="redeploy" depends="build,undeploy,deploy"/>
+
+<!-- End Tomcat tasks -->
+
+</project>
