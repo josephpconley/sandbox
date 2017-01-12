@@ -1,0 +1,17 @@
+[0m[[0minfo[0m] [0mPackaging C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\hello-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	sbthello\HelloPlugin$autoImport$.class[0m
+[0m[[0mdebug[0m] [0m	  C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\classes\sbthello\HelloPlugin$autoImport$.class[0m
+[0m[[0mdebug[0m] [0m	sbthello\HelloPlugin.class[0m
+[0m[[0mdebug[0m] [0m	  C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\classes\sbthello\HelloPlugin.class[0m
+[0m[[0mdebug[0m] [0m	sbthello\HelloPlugin$.class[0m
+[0m[[0mdebug[0m] [0m	  C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\classes\sbthello\HelloPlugin$.class[0m
+[0m[[0mdebug[0m] [0m	sbt[0m
+[0m[[0mdebug[0m] [0m	  C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\classes\sbt[0m
+[0m[[0mdebug[0m] [0m	sbt\sbt.autoplugins[0m
+[0m[[0mdebug[0m] [0m	  C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\classes\sbt\sbt.autoplugins[0m
+[0m[[0mdebug[0m] [0m	sbthello[0m
+[0m[[0mdebug[0m] [0m	  C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\classes\sbthello[0m
+[0m[[0mdebug[0m] [0m	sbthello\HelloPlugin$$anonfun$projectSettings$1.class[0m
+[0m[[0mdebug[0m] [0m	  C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\classes\sbthello\HelloPlugin$$anonfun$projectSettings$1.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

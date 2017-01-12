@@ -1,0 +1,51 @@
+[0m[[0mdebug[0m] [0mlocal do not support transaction. ivy pattern does not use revision as a directory[0m
+[0m[[0mdebug[0m] [0mC:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\poms\hello.pom already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\poms\hello.pom[0m
+[0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
+[0m[[0mdebug[0m] [0mC:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\poms\hello.pom.sha1 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\poms\hello.pom.sha1[0m
+[0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
+[0m[[0mdebug[0m] [0mC:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\poms\hello.pom.md5 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\poms\hello.pom.md5[0m
+[0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
+[0m[[0minfo[0m] [0m	published hello to C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\poms\hello.pom[0m
+[0m[[0mdebug[0m] [0mC:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\jars\hello.jar already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\jars\hello.jar[0m
+[0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
+[0m[[0mdebug[0m] [0mC:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\jars\hello.jar.sha1 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\jars\hello.jar.sha1[0m
+[0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
+[0m[[0mdebug[0m] [0mC:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\jars\hello.jar.md5 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\jars\hello.jar.md5[0m
+[0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
+[0m[[0minfo[0m] [0m	published hello to C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\jars\hello.jar[0m
+[0m[[0mdebug[0m] [0mC:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\srcs\hello-sources.jar already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\srcs\hello-sources.jar[0m
+[0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
+[0m[[0mdebug[0m] [0mC:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\srcs\hello-sources.jar.sha1 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\srcs\hello-sources.jar.sha1[0m
+[0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
+[0m[[0mdebug[0m] [0mC:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\srcs\hello-sources.jar.md5 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\srcs\hello-sources.jar.md5[0m
+[0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
+[0m[[0minfo[0m] [0m	published hello to C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\srcs\hello-sources.jar[0m
+[0m[[0mdebug[0m] [0mC:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\docs\hello-javadoc.jar already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\docs\hello-javadoc.jar[0m
+[0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
+[0m[[0mdebug[0m] [0mC:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\docs\hello-javadoc.jar.sha1 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\docs\hello-javadoc.jar.sha1[0m
+[0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
+[0m[[0mdebug[0m] [0mC:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\docs\hello-javadoc.jar.md5 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\docs\hello-javadoc.jar.md5[0m
+[0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
+[0m[[0minfo[0m] [0m	published hello to C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\docs\hello-javadoc.jar[0m
+[0m[[0mdebug[0m] [0mC:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\ivys\ivy.xml already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\ivys\ivy.xml[0m
+[0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
+[0m[[0mdebug[0m] [0mC:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\ivys\ivy.xml.sha1 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\ivys\ivy.xml.sha1[0m
+[0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
+[0m[[0mdebug[0m] [0mC:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\ivys\ivy.xml.md5 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\ivys\ivy.xml.md5[0m
+[0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
+[0m[[0minfo[0m] [0m	published ivy to C:\Users\Chariot\.ivy2\local\com.josephpconley\hello\scala_2.10\sbt_0.13\1.0\ivys\ivy.xml[0m

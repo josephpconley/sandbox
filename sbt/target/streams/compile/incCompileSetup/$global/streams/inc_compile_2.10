@@ -1,0 +1,129 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+4 items
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\classes\sbthello\HelloPlugin$$anonfun$projectSettings$1.class
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\classes\sbthello\HelloPlugin$.class
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\classes\sbthello\HelloPlugin$autoImport$.class
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\classes\sbthello\HelloPlugin.class
+binary dependencies:
+8 items
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> C:\Users\Chariot\.ivy2\cache\org.scala-sbt\apply-macro\jars\apply-macro-0.13.7.jar
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> C:\Users\Chariot\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.7.jar
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> C:\Users\Chariot\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.7.jar
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> C:\Users\Chariot\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.7.jar
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> C:\Users\Chariot\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.7.jar
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> C:\Users\Chariot\.ivy2\cache\org.scala-sbt\task-system\jars\task-system-0.13.7.jar
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> C:\Users\Chariot\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> C:\lib\java\jdk1.8.0_31\jre\lib\rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+4 items
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> sbthello.HelloPlugin
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> sbthello.HelloPlugin$
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> sbthello.HelloPlugin$$anonfun$projectSettings$1
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> sbthello.HelloPlugin$autoImport$
+used names:
+25 items
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> :=
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> <init>
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> AnyRef
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> AutoPlugin
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> FullInstance
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> HelloPlugin
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> ManifestFactory
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> Predef
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> Seq
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> TaskKey
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> Unit
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> allRequirements
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> apply
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> autoImport
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> collection
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> hello
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> package
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> println
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> pure
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> reflect
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> sbt
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> sbthello
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> scala
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> set
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> taskKey
+product stamps:
+4 items
+C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\classes\sbthello\HelloPlugin$$anonfun$projectSettings$1.class -> lastModified(1432817402676)
+C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\classes\sbthello\HelloPlugin$.class -> lastModified(1432817402669)
+C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\classes\sbthello\HelloPlugin$autoImport$.class -> lastModified(1432817402683)
+C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\classes\sbthello\HelloPlugin.class -> lastModified(1432817402659)
+source stamps:
+1 items
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> hash(9747278ed77bad44f887fb456d997759b541197c)
+binary stamps:
+8 items
+C:\lib\java\jdk1.8.0_31\jre\lib\rt.jar -> lastModified(1425306577831)
+C:\Users\Chariot\.ivy2\cache\org.scala-sbt\apply-macro\jars\apply-macro-0.13.7.jar -> lastModified(1416378822000)
+C:\Users\Chariot\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.7.jar -> lastModified(1416378820000)
+C:\Users\Chariot\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.7.jar -> lastModified(1416378944000)
+C:\Users\Chariot\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.7.jar -> lastModified(1416378959000)
+C:\Users\Chariot\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.7.jar -> lastModified(1416378955000)
+C:\Users\Chariot\.ivy2\cache\org.scala-sbt\task-system\jars\task-system-0.13.7.jar -> lastModified(1416378938000)
+C:\Users\Chariot\.sbt\boot\scala-2.10.4\lib\scala-library.jar -> lastModified(1395179187000)
+class names:
+8 items
+C:\lib\java\jdk1.8.0_31\jre\lib\rt.jar -> java.lang.Object
+C:\Users\Chariot\.ivy2\cache\org.scala-sbt\apply-macro\jars\apply-macro-0.13.7.jar -> sbt.appmacro.Instance$
+C:\Users\Chariot\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.7.jar -> sbt.LinePosition$
+C:\Users\Chariot\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.7.jar -> sbt.TaskKey
+C:\Users\Chariot\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.7.jar -> sbt.AutoPlugin
+C:\Users\Chariot\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.7.jar -> sbt.package$
+C:\Users\Chariot\.ivy2\cache\org.scala-sbt\task-system\jars\task-system-0.13.7.jar -> sbt.Task
+C:\Users\Chariot\.sbt\boot\scala-2.10.4\lib\scala-library.jar -> scala.collection.Seq$
+internal apis:
+1 items
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDbr3D/AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHTXOO10AAZpc1Jvb3RzcQB+AAyfJpVPdAAGbm90aWZ5c3EAfgAMHIirBHQAFXByb2plY3RDb25maWd1cmF0aW9uc3NxAH4ADCq42Wh0AAR3YWl0c3EAfgAM9nYM53QADSRhc0luc3RhbmNlT2ZzcQB+AAytAy9jdAAFZW1wdHlzcQB+AAyyDiEbdAAGZXF1YWxzc3EAfgAMe7XLT3QACW5vVHJpZ2dlcnNxAH4ADDGVjYx0AAxhc0luc3RhbmNlT2ZzcQB+AAyUUPF8dAAMc3luY2hyb25pemVkc3EAfgAMiUzk2nQAB3VuYXJ5XyFzcQB+AAxBozLddAAFbGFiZWxzcQB+AAzlDtBNdAANJGlzSW5zdGFuY2VPZnNxAH4ADGpgbfF0AA9hbGxSZXF1aXJlbWVudHNzcQB+AAye2hVDdAAPaXNBbHdheXNFbmFibGVkc3EAfgAMPLDnVXQAC0hlbGxvUGx1Z2luc3EAfgAMHu42JnQACW5vdGlmeUFsbHNxAH4ADLkjgnZ0AAxpc0luc3RhbmNlT2ZzcQB+AAy4pIPZdAAOZ2xvYmFsU2V0dGluZ3NzcQB+AAxAjptZdAAPcHJvamVjdFNldHRpbmdzc3EAfgAMV92iI3QAAj09c3EAfgAMwjP7hHQABWNsb25lc3EAfgAMWKe3o3QACHRvU3RyaW5nc3EAfgAM38wetnQACHJlcXVpcmVzc3EAfgAMe/1pQXQAAiE9c3EAfgAMpoGfp3QAAiYmc3EAfgAMoRcXl3QACGdldENsYXNzc3EAfgAMjtrka3QABWhlbGxvc3EAfgAMMo62WHQAAm5lc3EAfgAMPLRgA3QACmF1dG9JbXBvcnRzcQB+AAzyzj7ndAANYnVpbGRTZXR0aW5nc3NxAH4ADBoxx9V0AAJlcXNxAH4ADFCn5Gt0AAIjI3NxAH4ADHGFafh0AAhmaW5hbGl6ZXNxAH4ADAbb0nh0AAhoYXNoQ29kZXNxAH4ADAopPRt0AAd0cmlnZ2Vyc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AX3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAFHNidGhlbGxvLkhlbGxvUGx1Z2ludXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AeHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AdwBwc3EAfgB8c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AF9MAAlpbmhlcml0ZWRxAH4AX0wAB3BhcmVudHNxAH4AX3hxAH4AgHNxAH4AdwBwc3EAfgB8dXEAfgBaAAAAAHNxAH4AdwBwc3EAfgB8dXEAfgBaAAAAAHNxAH4AdwBwc3EAfgB8dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB/dAAKQXV0b1BsdWdpbnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Af3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAADc2J0c3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJ1zcQB+AJB0ABBQbHVnaW5zRnVuY3Rpb25zcQB+AJZzcQB+AJB0AAVCYXNpY3NxAH4AkHQAB1BsdWdpbnNxAH4AlnNxAH4AkHQAB1BsdWdpbnNxAH4AlnNxAH4AkHQABk9iamVjdHNxAH4AlHNxAH4Al3VxAH4AmgAAAANzcQB+AJx0AARqYXZhc3EAfgCcdAAEbGFuZ3EAfgChc3EAfgCQdAADQW55c3EAfgCUc3EAfgCXdXEAfgCaAAAAAnNxAH4AnHQABXNjYWxhcQB+AKF1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAhzYnRoZWxsb3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTZqSf3l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABAQzpcd29ya3NwYWNlXGpvZWNcc2FuZGJveFxzYnRcdGFyZ2V0XHNjYWxhLTIuMTBcc2J0LTAuMTNcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFJdHJ47Xe61E+If7RW2Zd1m1QRl8
+external apis:
+0 items
+source infos:
+1 items
+C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala -> 
+AAAAAAAAAAA=
+compilations:
+3 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTZYHakl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQEM6XHdvcmtzcGFjZVxqb2VjXHNhbmRib3hcc2J0XHRhcmdldFxzY2FsYS0yLjEwXHNidC0wLjEzXGNsYXNzZXN0AAEv
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTZqHvBR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQEM6XHdvcmtzcGFjZVxqb2VjXHNhbmRib3hcc2J0XHRhcmdldFxzY2FsYS0yLjEwXHNidC0wLjEzXGNsYXNzZXN0AAEv
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTZqSf3l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQEM6XHdvcmtzcGFjZVxqb2VjXHNhbmRib3hcc2J0XHRhcmdldFxzY2FsYS0yLjEwXHNidC0wLjEzXGNsYXNzZXN0AAEv

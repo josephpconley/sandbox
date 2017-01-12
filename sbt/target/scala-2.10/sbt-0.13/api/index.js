@@ -1,0 +1,1 @@
+Index.PACKAGES = {"sbt" : [], "sbthello" : [{"object" : "sbthello\/HelloPlugin$.html", "name" : "sbthello.HelloPlugin"}]};

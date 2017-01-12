@@ -14,7 +14,7 @@ import scala.concurrent.duration.Duration
 trait ESClient {
   val es = {
     val clusterName = "elasticsearch"
-    val host = "localhost"
+    val host = "127.0.0.1"
     val port = 9300
 
     val settings: Settings = ImmutableSettings.settingsBuilder().put("cluster.name", clusterName).build()

@@ -1,0 +1,1 @@
+addSbtPlugin("com.josephpconley" % "hello" % "1.0")

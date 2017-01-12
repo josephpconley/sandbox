@@ -1,0 +1,10 @@
+publishLocal
+;clean;compile
+;reload;update
+publishLocal
+exit
+publishLocal
+;reload;update
+publishLocal
+compile
+publishLocal

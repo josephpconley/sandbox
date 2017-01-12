@@ -8,14 +8,18 @@ import concurrent.ExecutionContext.Implicits.global
 
 object Greeter {
   case object Greet
-  case object Done
+  case class Respond(msg: String)
 }
 
 class Greeter extends Actor {
   def receive = {
     case Greeter.Greet => {
       println("Hello World!")
-      sender ! Greeter.Done
+      sender ! Greeter.Respond("Hello World")
+    }
+    case s: String => {
+      println(s"Got $s!")
+      sender ! "Hello!"
     }
   }
 }
@@ -25,13 +29,14 @@ object HelloWorldApp extends App {
 
   // default Actor constructor
   val helloActor = system.actorOf(Props[Greeter], "helloactor")
+  println(helloActor.path)
 
-  helloActor ! Greeter.Greet
+//  helloActor ! Greeter.Greet
+//
+//  implicit val timeout = Timeout(5 seconds)
+//  (helloActor ? Greeter.Greet).map { response =>
+//    println(response)
+//  }
 
-  implicit val timeout = Timeout(5 seconds)
-  (helloActor ? Greeter.Greet).map { response =>
-    println(response)
-  }
-
-  system.shutdown()
+//  system.shutdown()
 }

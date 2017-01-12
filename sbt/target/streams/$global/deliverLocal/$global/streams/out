@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0m:: delivering :: com.josephpconley#hello;1.0 :: 1.0 :: release :: Thu May 28 12:50:01 GMT 2015[0m
+[0m[[0mdebug[0m] [0m	options = status=release pubdate=Thu May 28 12:50:01 GMT 2015 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0minfo[0m] [0m	delivering ivy file to C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\ivy-1.0.xml[0m
+[0m[[0mdebug[0m] [0m	deliver done (6ms)[0m

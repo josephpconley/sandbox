@@ -4,7 +4,7 @@ object Parallel extends App{
   def time(f : () => Unit) = {
     val t1 = System.currentTimeMillis()
     f()
-    println("Elapsed: " + ((System.currentTimeMillis() - t1)/1.0e3));
+    println("Elapsed: " + ((System.currentTimeMillis() - t1)/1.0e3))
   }
 
   def isPrime(x : Int) : Boolean = {

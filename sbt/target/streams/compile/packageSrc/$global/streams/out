@@ -1,0 +1,5 @@
+[0m[[0minfo[0m] [0mPackaging C:\workspace\joec\sandbox\sbt\target\scala-2.10\sbt-0.13\hello-1.0-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	sbthello\HelloPlugin.scala[0m
+[0m[[0mdebug[0m] [0m	  C:\workspace\joec\sandbox\sbt\src\main\scala\sbthello\HelloPlugin.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
